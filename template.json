@@ -1,0 +1,1285 @@
+{
+    "Actor": {
+        "types": [
+            "character"
+        ],
+        "character": {
+            "biography": "",
+            "notes": "",
+            "health": {
+                "value": 32,
+                "min": 0,
+                "max": 32
+            },
+            "sanity": {
+                "value": 32,
+                "min": 0,
+                "max": 32
+            },
+            "header": {
+                "name": {
+                    "value": 0,
+                    "label": "Name"
+                },
+                "player": {
+                    "value": 0,
+                    "label": "Player"
+                },
+                "social_class": {
+                    "value": 0,
+                    "label": "Social class"
+                },
+                "nationality": {
+                    "value": 0,
+                    "label": "Nationality"
+                },
+                "archetype": {
+                    "value": 0,
+                    "label": "Archetype"
+                },
+                "language": {
+                    "value": 0,
+                    "label": "Language"
+                },
+                "ap_available": {
+                    "value": 0,
+                    "label": "AP available"
+                },
+                "ap_used": {
+                    "value": 0,
+                    "label": "AP used"
+                },
+                "gender": {
+                    "value": 0,
+                    "label": "Gender"
+                },
+                "age": {
+                    "value": 0,
+                    "label": "Age"
+                },
+                "height": {
+                    "value": 0,
+                    "label": "height"
+                },
+                "fate": {
+                    "value": 0,
+                    "label": "Fate"
+                },
+                "weight": {
+                    "value": 0,
+                    "label": "Weight"
+                },
+                "dominant_hand": {
+                    "value": 0,
+                    "label": "Dominant Hand"
+                },
+                "first_impression": {
+                    "value": 0,
+                    "label": "First Impression"
+                }
+            },
+            "traits": {
+                "charisma": {
+                    "value": 0,
+                    "label": "Charisma",
+                    "modifier": []
+                },
+                "constitution": {
+                    "value": 0,
+                    "label": "Constitution",
+                    "modifier": []
+                },
+                "dexterity": {
+                    "value": 0,
+                    "label": "Dexterity",
+                    "modifier": []
+                },
+                "spirit": {
+                    "value": 0,
+                    "label": "Spirit",
+                    "modifier": []
+                },
+                "inteligence": {
+                    "value": 0,
+                    "label": "Inteligence",
+                    "modifier": []
+                },
+                "perception": {
+                    "value": 0,
+                    "label": "Perception",
+                    "modifier": []
+                },
+                "sanity": {
+                    "value": 0,
+                    "label": "Sanity",
+                    "modifier": []
+                }
+            },
+            "skills": {
+                "agility": {
+                    "value": 0,
+                    "label": "Agility",
+                    "modifier": []
+                },
+                "body_control": {
+                    "value": 0,
+                    "label": "Body Control",
+                    "modifier": []
+                },
+                "ambidextry": {
+                    "value": 0,
+                    "label": "Ambidextry",
+                    "modifier": []
+                },
+                "evade": {
+                    "value": 0,
+                    "label": "Evade",
+                    "modifier": []
+                },
+                "parkour": {
+                    "value": 0,
+                    "label": "Parkour",
+                    "modifier": []
+                },
+                "horsemanship": {
+                    "value": 0,
+                    "label": "Horsemanship",
+                    "modifier": []
+                },
+                "driving_wagon": {
+                    "value": 0,
+                    "label": "Driving Wagon",
+                    "modifier": []
+                },
+                "riding": {
+                    "value": 0,
+                    "label": "Riding",
+                    "modifier": []
+                },
+                "water": {
+                    "value": 0,
+                    "label": "Water",
+                    "modifier": []
+                },
+                "swimming": {
+                    "value": 0,
+                    "label": "Swimming",
+                    "modifier": []
+                },
+                "diving": {
+                    "value": 0,
+                    "label": "Diving",
+                    "modifier": []
+                },
+                "animal_handling": {
+                    "value": 0,
+                    "label": "Animal Handling",
+                    "modifier": []
+                },
+                "animal_care": {
+                    "value": 0,
+                    "label": "Animal Care",
+                    "modifier": []
+                },
+                "hunt_with_animal": {
+                    "value": 0,
+                    "label": "Hunt With Animal",
+                    "modifier": []
+                },
+                "crafting": {
+                    "value": 0,
+                    "label": "Crafting",
+                    "modifier": []
+                },
+                "craftmans": {
+                    "value": 0,
+                    "label": "Craftmans",
+                    "modifier": []
+                },
+                "craftmans_txt": {
+                    "value": 0,
+                    "label": "Craftmans",
+                    "modifier": []
+                },
+                "craftmans_bis": {
+                    "value": 0,
+                    "label": "Craftmans",
+                    "modifier": []
+                },
+                "craftmans_bis_txt": {
+                    "value": 0,
+                    "label": "Craftmans",
+                    "modifier": []
+                },
+                "forgery": {
+                    "value": 0,
+                    "label": "Forgery",
+                    "modifier": []
+                },
+                "forgery_txt": {
+                    "value": 0,
+                    "label": "Forgery",
+                    "modifier": []
+                },
+                "forgery_bis": {
+                    "value": 0,
+                    "label": "Forgery",
+                    "modifier": []
+                },
+                "forgery_bis_txt": {
+                    "value": 0,
+                    "label": "Forgery",
+                    "modifier": []
+                },
+                "hunt_and_fish": {
+                    "value": 0,
+                    "label": "Hunt And Fish",
+                    "modifier": []
+                },
+                "fishing": {
+                    "value": 0,
+                    "label": "Fishing",
+                    "modifier": []
+                },
+                "hunting": {
+                    "value": 0,
+                    "label": "Hunting",
+                    "modifier": []
+                },
+                "tracking": {
+                    "value": 0,
+                    "label": "Tracking",
+                    "modifier": []
+                },
+                "culture": {
+                    "value": 0,
+                    "label": "Culture",
+                    "modifier": []
+                },
+                "civics": {
+                    "value": 0,
+                    "label": "Civics",
+                    "modifier": []
+                },
+                "administration": {
+                    "value": 0,
+                    "label": "Administration",
+                    "modifier": []
+                },
+                "bribery": {
+                    "value": 0,
+                    "label": "Bribery",
+                    "modifier": []
+                },
+                "economics": {
+                    "value": 0,
+                    "label": "Economics",
+                    "modifier": []
+                },
+                "heraldry": {
+                    "value": 0,
+                    "label": "Heraldry",
+                    "modifier": []
+                },
+                "law": {
+                    "value": 0,
+                    "label": "Law",
+                    "modifier": []
+                },
+                "humanities": {
+                    "value": 0,
+                    "label": "Humanities",
+                    "modifier": []
+                },
+                "archaeology": {
+                    "value": 0,
+                    "label": "Archaeology",
+                    "modifier": []
+                },
+                "history": {
+                    "value": 0,
+                    "label": "History",
+                    "modifier": []
+                },
+                "literature_and_arts": {
+                    "value": 0,
+                    "label": "Literature & Arts",
+                    "modifier": []
+                },
+                "philosophy": {
+                    "value": 0,
+                    "label": "Philosophy",
+                    "modifier": []
+                },
+                "science": {
+                    "value": 0,
+                    "label": "Science",
+                    "modifier": []
+                },
+                "appl_science": {
+                    "value": 0,
+                    "label": "Appl. Science",
+                    "modifier": []
+                },
+                "pharmaceutics": {
+                    "value": 0,
+                    "label": "Pharmaceutics",
+                    "modifier": []
+                },
+                "technology": {
+                    "value": 0,
+                    "label": "Technology",
+                    "modifier": []
+                },
+                "healthcare": {
+                    "value": 0,
+                    "label": "Healthcare",
+                    "modifier": []
+                },
+                "healing": {
+                    "value": 0,
+                    "label": "Healing",
+                    "modifier": []
+                },
+                "mental_care": {
+                    "value": 0,
+                    "label": "Mental Care",
+                    "modifier": []
+                },
+                "nat_philosophy": {
+                    "value": 0,
+                    "label": "Nat. Philosophy",
+                    "modifier": []
+                },
+                "Biology": {
+                    "value": 0,
+                    "label": "biology",
+                    "modifier": []
+                },
+                "chemistry": {
+                    "value": 0,
+                    "label": "Chemistry",
+                    "modifier": []
+                },
+                "geology": {
+                    "value": 0,
+                    "label": "Geology",
+                    "modifier": []
+                },
+                "mathematics": {
+                    "value": 0,
+                    "label": "Mathematics",
+                    "modifier": []
+                },
+                "physics": {
+                    "value": 0,
+                    "label": "Physics",
+                    "modifier": []
+                },
+                "transmutations": {
+                    "value": 0,
+                    "label": "Transmutations",
+                    "modifier": []
+                },
+                "alchemy": {
+                    "value": 0,
+                    "label": "Alchemy",
+                    "modifier": []
+                },
+                "communication": {
+                    "value": 0,
+                    "label": "Communication",
+                    "modifier": []
+                },
+                "etiquette": {
+                    "value": 0,
+                    "label": "Etiquette",
+                    "modifier": []
+                },
+                "social_int": {
+                    "value": 0,
+                    "label": "Social Int",
+                    "modifier": []
+                },
+                "social_int_txt": {
+                    "value": 0,
+                    "label": "Social Int",
+                    "modifier": []
+                },
+                "social_int_bis": {
+                    "value": 0,
+                    "label": "Social Int",
+                    "modifier": []
+                },
+                "social_int_bis_txt": {
+                    "value": 0,
+                    "label": "Social Int",
+                    "modifier": []
+                },
+                "social_int_ter": {
+                    "value": 0,
+                    "label": "Social Int",
+                    "modifier": []
+                },
+                "social_int_ter_txt": {
+                    "value": 0,
+                    "label": "Social Int",
+                    "modifier": []
+                },
+                "social_int_quart": {
+                    "value": 0,
+                    "label": "Social Int",
+                    "modifier": []
+                },
+                "social_int_quart_txt": {
+                    "value": 0,
+                    "label": "Social Int",
+                    "modifier": []
+                },
+                "vogue": {
+                    "value": 0,
+                    "label": "Vogue",
+                    "modifier": []
+                },
+                "vogue_txt": {
+                    "value": 0,
+                    "label": "Vogue",
+                    "modifier": []
+                },
+                "vogue_bis": {
+                    "value": 0,
+                    "label": "Vogue",
+                    "modifier": []
+                },
+                "vogue_bis_txt": {
+                    "value": 0,
+                    "label": "Vogue",
+                    "modifier": []
+                },
+                "vogue_ter": {
+                    "value": 0,
+                    "label": "Vogue",
+                    "modifier": []
+                },
+                "vogue_ter_txt": {
+                    "value": 0,
+                    "label": "Vogue",
+                    "modifier": []
+                },
+                "languages": {
+                    "value": 0,
+                    "label": "Languages",
+                    "modifier": []
+                },
+                "foreign": {
+                    "value": 0,
+                    "label": "Foreign L",
+                    "modifier": []
+                },
+                "foreign_txt": {
+                    "value": 0,
+                    "label": "Foreign L",
+                    "modifier": []
+                },
+                "foreign_bis": {
+                    "value": 0,
+                    "label": "Foreign L",
+                    "modifier": []
+                },
+                "foreign_bis_txt": {
+                    "value": 0,
+                    "label": "Foreign L",
+                    "modifier": []
+                },
+                "foreign_ter": {
+                    "value": 0,
+                    "label": "Foreign L",
+                    "modifier": []
+                },
+                "foreign_ter_txt": {
+                    "value": 0,
+                    "label": "Foreign L",
+                    "modifier": []
+                },
+                "r_and_w": {
+                    "value": 0,
+                    "label": "R&W",
+                    "modifier": []
+                },
+                "r_and_w_txt": {
+                    "value": 0,
+                    "label": "R&W",
+                    "modifier": []
+                },
+                "r_and_w_bis": {
+                    "value": 0,
+                    "label": "R&W",
+                    "modifier": []
+                },
+                "r_and_w_bis_txt": {
+                    "value": 0,
+                    "label": "R&W",
+                    "modifier": []
+                },
+                "native_language": {
+                    "value": 0,
+                    "label": "Native L",
+                    "modifier": []
+                },
+                "rhetoric": {
+                    "value": 0,
+                    "label": "Rhetoric",
+                    "modifier": []
+                },
+                "bartering": {
+                    "value": 0,
+                    "label": "Bartering",
+                    "modifier": []
+                },
+                "persuasion": {
+                    "value": 0,
+                    "label": "Persuasion",
+                    "modifier": []
+                },
+                "stealth": {
+                    "value": 0,
+                    "label": "Stealth",
+                    "modifier": []
+                },
+                "avoidance": {
+                    "value": 0,
+                    "label": "Avoidance",
+                    "modifier": []
+                },
+                "disguises": {
+                    "value": 0,
+                    "label": "Disguises",
+                    "modifier": []
+                },
+                "hide_and_camouflage": {
+                    "value": 0,
+                    "label": "Hide & Camouflage",
+                    "modifier": []
+                },
+                "sneaking": {
+                    "value": 0,
+                    "label": "Sneaking",
+                    "modifier": []
+                },
+                "veild Strike": {
+                    "value": 0,
+                    "label": "Veild Strike",
+                    "modifier": []
+                },
+                "detection": {
+                    "value": 0,
+                    "label": "Detection",
+                    "modifier": []
+                },
+                "detetct_hidden": {
+                    "value": 0,
+                    "label": "Detetct Hidden",
+                    "modifier": []
+                },
+                "lip_reader": {
+                    "value": 0,
+                    "label": "Lip Reader",
+                    "modifier": []
+                },
+                "observation": {
+                    "value": 0,
+                    "label": "Observation",
+                    "modifier": []
+                },
+                "sleight_of_hand": {
+                    "value": 0,
+                    "label": "Sleight of Hand",
+                    "modifier": []
+                },
+                "arm_disarm_traps": {
+                    "value": 0,
+                    "label": "Arm/Disarm Traps",
+                    "modifier": []
+                },
+                "concealing": {
+                    "value": 0,
+                    "label": "Concealing",
+                    "modifier": []
+                },
+                "lock_picking": {
+                    "value": 0,
+                    "label": "Lock Picking",
+                    "modifier": []
+                },
+                "pickpocketing": {
+                    "value": 0,
+                    "label": "Pickpocketing",
+                    "modifier": []
+                },
+                "thief_signs": {
+                    "value": 0,
+                    "label": "Thief Signs",
+                    "modifier": []
+                },
+                "entertainment": {
+                    "value": 0,
+                    "label": "Entertainment",
+                    "modifier": []
+                },
+                "act_and_Dance": {
+                    "value": 0,
+                    "label": "Act & Dance",
+                    "modifier": []
+                },
+                "acting": {
+                    "value": 0,
+                    "label": "Acting",
+                    "modifier": []
+                },
+                "choreography": {
+                    "value": 0,
+                    "label": "Choreography",
+                    "modifier": []
+                },
+                "dancing": {
+                    "value": 0,
+                    "label": "Dancing",
+                    "modifier": []
+                },
+                "dancing_txt": {
+                    "value": 0,
+                    "label": "Dancing",
+                    "modifier": []
+                },
+                "dancing_bis": {
+                    "value": 0,
+                    "label": "Dancing",
+                    "modifier": []
+                },
+                "dancing_bis_txt": {
+                    "value": 0,
+                    "label": "Dancing",
+                    "modifier": []
+                },
+                "circus_acts": {
+                    "value": 0,
+                    "label": "Circus Acts",
+                    "modifier": []
+                },
+                "fakir_tricks": {
+                    "value": 0,
+                    "label": "Fakir Tricks",
+                    "modifier": []
+                },
+                "juggling": {
+                    "value": 0,
+                    "label": "Juggling",
+                    "modifier": []
+                },
+                "rope_walking": {
+                    "value": 0,
+                    "label": "Rope Walking",
+                    "modifier": []
+                },
+                "gambling": {
+                    "value": 0,
+                    "label": "Gambling",
+                    "modifier": []
+                },
+                "cheating": {
+                    "value": 0,
+                    "label": "Cheating",
+                    "modifier": []
+                },
+                "games": {
+                    "value": 0,
+                    "label": "Games",
+                    "modifier": []
+                },
+                "games_txt": {
+                    "value": 0,
+                    "label": "Games",
+                    "modifier": []
+                },
+                "games_bis": {
+                    "value": 0,
+                    "label": "Games",
+                    "modifier": []
+                },
+                "games_bis_txt": {
+                    "value": 0,
+                    "label": "Games",
+                    "modifier": []
+                },
+                "illicit_gaming": {
+                    "value": 0,
+                    "label": "Illicit Gaming",
+                    "modifier": []
+                },
+                "music": {
+                    "value": 0,
+                    "label": "Music",
+                    "modifier": []
+                },
+                "composing": {
+                    "value": 0,
+                    "label": "Composing",
+                    "modifier": []
+                },
+                "play_inst": {
+                    "value": 0,
+                    "label": "Play. Inst",
+                    "modifier": []
+                },
+                "play_inst_txt": {
+                    "value": 0,
+                    "label": "Play. Inst",
+                    "modifier": []
+                },
+                "play_inst_bis": {
+                    "value": 0,
+                    "label": "Play. Inst",
+                    "modifier": []
+                },
+                "play_inst_bis_txt": {
+                    "value": 0,
+                    "label": "Play. Inst",
+                    "modifier": []
+                },
+                "singing": {
+                    "value": 0,
+                    "label": "Singing",
+                    "modifier": []
+                },
+                "singing_txt": {
+                    "value": 0,
+                    "label": "Singing",
+                    "modifier": []
+                },
+                "singing_bis": {
+                    "value": 0,
+                    "label": "Singing",
+                    "modifier": []
+                },
+                "singing_bis_txt": {
+                    "value": 0,
+                    "label": "Singing",
+                    "modifier": []
+                },
+                "theology": {
+                    "value": 0,
+                    "label": "Theology",
+                    "modifier": []
+                },
+                "de_religionibus": {
+                    "value": 0,
+                    "label": "De Religionibus",
+                    "modifier": []
+                },
+                "dsrr": {
+                    "value": 0,
+                    "label": "D.s.r.R.",
+                    "modifier": []
+                },
+                "dsrr_txt": {
+                    "value": 0,
+                    "label": "D.s.r.R.",
+                    "modifier": []
+                },
+                "dsrr_bis": {
+                    "value": 0,
+                    "label": "D.s.r.R.",
+                    "modifier": []
+                },
+                "dsrr_bis_txt": {
+                    "value": 0,
+                    "label": "D.s.r.R.",
+                    "modifier": []
+                },
+                "iconogr": {
+                    "value": 0,
+                    "label": "Iconogr.",
+                    "modifier": []
+                },
+                "iconogr_txt": {
+                    "value": 0,
+                    "label": "Iconogr.",
+                    "modifier": []
+                },
+                "iconogr_bis": {
+                    "value": 0,
+                    "label": "Iconogr.",
+                    "modifier": []
+                },
+                "iconogr_bis_txt": {
+                    "value": 0,
+                    "label": "Iconogr.",
+                    "modifier": []
+                },
+                "knm": {
+                    "value": 0,
+                    "label": "Kn. M.",
+                    "modifier": []
+                },
+                "knm_txt": {
+                    "value": 0,
+                    "label": "Kn. M.",
+                    "modifier": []
+                },
+                "knm_bis": {
+                    "value": 0,
+                    "label": "Kn. M.",
+                    "modifier": []
+                },
+                "knm_bis_txt": {
+                    "value": 0,
+                    "label": "Kn. M.",
+                    "modifier": []
+                },
+                "religio": {
+                    "value": 0,
+                    "label": "Religio",
+                    "modifier": []
+                },
+                "religio_txt": {
+                    "value": 0,
+                    "label": "Religio",
+                    "modifier": []
+                },
+                "religio_bis": {
+                    "value": 0,
+                    "label": "Religio",
+                    "modifier": []
+                },
+                "religio_bis_txt": {
+                    "value": 0,
+                    "label": "Religio",
+                    "modifier": []
+                },
+                "rell": {
+                    "value": 0,
+                    "label": "Rel. L",
+                    "modifier": []
+                },
+                "rell_txt": {
+                    "value": 0,
+                    "label": "Rel. L",
+                    "modifier": []
+                },
+                "rell_bis": {
+                    "value": 0,
+                    "label": "Rel. L",
+                    "modifier": []
+                },
+                "rell_bis_txt": {
+                    "value": 0,
+                    "label": "Rel. L",
+                    "modifier": []
+                },
+                "divine_arts": {
+                    "value": 0,
+                    "label": "Divine Arts",
+                    "modifier": []
+                },
+                "holy_power": {
+                    "value": 0,
+                    "label": "Holy Power",
+                    "modifier": []
+                },
+                "incite_courage": {
+                    "value": 0,
+                    "label": "Incite Courage",
+                    "modifier": []
+                },
+                "mysticism": {
+                    "value": 0,
+                    "label": "Mysticism",
+                    "modifier": []
+                },
+                "pastoral_care": {
+                    "value": 0,
+                    "label": "Pastoral Care",
+                    "modifier": []
+                },
+                "esotericism": {
+                    "value": 0,
+                    "label": "Esotericism",
+                    "modifier": []
+                },
+                "de_sodaliciorum": {
+                    "value": 0,
+                    "label": "De Sodaliciorum",
+                    "modifier": []
+                },
+                "esoteric_symbolism": {
+                    "value": 0,
+                    "label": "Esoteric Symbolism",
+                    "modifier": []
+                },
+                "occult_literature": {
+                    "value": 0,
+                    "label": "Occult Literature",
+                    "modifier": []
+                },
+                "s_r_doctus": {
+                    "value": 0,
+                    "label": "S.r.Doctus",
+                    "modifier": []
+                },
+                "s_r_doctus_txt": {
+                    "value": 0,
+                    "label": "S.r.Doctus",
+                    "modifier": []
+                },
+                "s_r_doctus_bis": {
+                    "value": 0,
+                    "label": "S.r.Doctus",
+                    "modifier": []
+                },
+                "s_r_doctus_bis_txt": {
+                    "value": 0,
+                    "label": "S.r.Doctus",
+                    "modifier": []
+                },
+                "s_r_doctus_ter": {
+                    "value": 0,
+                    "label": "S.r.Doctus",
+                    "modifier": []
+                },
+                "s_r_doctus_ter_txt": {
+                    "value": 0,
+                    "label": "S.r.Doctus",
+                    "modifier": []
+                },
+                "divination": {
+                    "value": 0,
+                    "label": "Divination",
+                    "modifier": []
+                },
+                "numerology": {
+                    "value": 0,
+                    "label": "Numerology",
+                    "modifier": []
+                },
+                "seer": {
+                    "value": 0,
+                    "label": "Seer",
+                    "modifier": []
+                },
+                "seer_txt": {
+                    "value": 0,
+                    "label": "Seer",
+                    "modifier": []
+                },
+                "seer_bis": {
+                    "value": 0,
+                    "label": "Seer",
+                    "modifier": []
+                },
+                "seer_bis_txt": {
+                    "value": 0,
+                    "label": "Seer",
+                    "modifier": []
+                },
+                "supernat_beings": {
+                    "value": 0,
+                    "label": "Supernat. Beings",
+                    "modifier": []
+                },
+                "beastiology": {
+                    "value": 0,
+                    "label": "Beastiology",
+                    "modifier": []
+                },
+                "the_l_h_path": {
+                    "value": 0,
+                    "label": "The l. h. Path",
+                    "modifier": []
+                },
+                "black_magic": {
+                    "value": 0,
+                    "label": "Black Magic",
+                    "modifier": []
+                },
+                "medicina_mentis_lh": {
+                    "value": 0,
+                    "label": "Medicina Mentis",
+                    "modifier": []
+                },
+                "sinistra ": {
+                    "value": 0,
+                    "label": "Sinistra",
+                    "modifier": []
+                },
+                "the_r_h_path": {
+                    "value": 0,
+                    "label": "The r. h. Path ",
+                    "modifier": []
+                },
+                "white_magic": {
+                    "value": 0,
+                    "label": "White Magic",
+                    "modifier": []
+                },
+                "medicina_mentis_rh": {
+                    "value": 0,
+                    "label": "Medicina Mentis",
+                    "modifier": []
+                },
+                "dextera": {
+                    "value": 0,
+                    "label": "Dextera",
+                    "modifier": []
+                },
+                "well_travelled": {
+                    "value": 0,
+                    "label": "Well-Travelled",
+                    "modifier": []
+                },
+                "social_studies": {
+                    "value": 0,
+                    "label": "Social Studies",
+                    "modifier": []
+                },
+                "geography": {
+                    "value": 0,
+                    "label": "Geography",
+                    "modifier": []
+                },
+                "geography_txt": {
+                    "value": 0,
+                    "label": "Geography",
+                    "modifier": []
+                },
+                "geography_bis": {
+                    "value": 0,
+                    "label": "Geography",
+                    "modifier": []
+                },
+                "geography_bis_txt": {
+                    "value": 0,
+                    "label": "Geography",
+                    "modifier": []
+                },
+                "geography_ter": {
+                    "value": 0,
+                    "label": "Geography",
+                    "modifier": []
+                },
+                "geography_ter_txt": {
+                    "value": 0,
+                    "label": "Geography",
+                    "modifier": []
+                },
+                "geography_quart": {
+                    "value": 0,
+                    "label": "Geography",
+                    "modifier": []
+                },
+                "geography_quart_txt": {
+                    "value": 0,
+                    "label": "Geography",
+                    "modifier": []
+                },
+                "knpc": {
+                    "value": 0,
+                    "label": "Kn.P/C.",
+                    "modifier": []
+                },
+                "knpc_txt": {
+                    "value": 0,
+                    "label": "Kn.P/C.",
+                    "modifier": []
+                },
+                "knpc_bis": {
+                    "value": 0,
+                    "label": "Kn.P/C.",
+                    "modifier": []
+                },
+                "knpc_bis_txt": {
+                    "value": 0,
+                    "label": "Kn.P/C.",
+                    "modifier": []
+                },
+                "knpc_ter": {
+                    "value": 0,
+                    "label": "Kn.P/C.",
+                    "modifier": []
+                },
+                "knpc_ter_txt": {
+                    "value": 0,
+                    "label": "Kn.P/C.",
+                    "modifier": []
+                },
+                "knpc_quart": {
+                    "value": 0,
+                    "label": "Kn.P/C.",
+                    "modifier": []
+                },
+                "knpc_quart_txt": {
+                    "value": 0,
+                    "label": "Kn.P/C.",
+                    "modifier": []
+                },
+                "pow_sph": {
+                    "value": 0,
+                    "label": "Pow. Sph.",
+                    "modifier": []
+                },
+                "pow_sph_txt": {
+                    "value": 0,
+                    "label": "Pow. Sph.",
+                    "modifier": []
+                },
+                "pow_sph_bis": {
+                    "value": 0,
+                    "label": "Pow. Sph.",
+                    "modifier": []
+                },
+                "pow_sph_bis_txt": {
+                    "value": 0,
+                    "label": "Pow. Sph.",
+                    "modifier": []
+                },
+                "pow_sph_ter": {
+                    "value": 0,
+                    "label": "Pow. Sph.",
+                    "modifier": []
+                },
+                "pow_sph_ter_txt": {
+                    "value": 0,
+                    "label": "Pow. Sph.",
+                    "modifier": []
+                },
+                "pow_sph_quart": {
+                    "value": 0,
+                    "label": "Pow. Sph.",
+                    "modifier": []
+                },
+                "pow_sph_quart_txt": {
+                    "value": 0,
+                    "label": "Pow. Sph.",
+                    "modifier": []
+                },
+                "survival": {
+                    "value": 0,
+                    "label": "Survival",
+                    "modifier": []
+                },
+                "camping": {
+                    "value": 0,
+                    "label": "Camping",
+                    "modifier": []
+                },
+                "travelling": {
+                    "value": 0,
+                    "label": "Travelling",
+                    "modifier": []
+                },
+                "fighting": {
+                    "value": 0,
+                    "label": "Fighting",
+                    "modifier": []
+                },
+                "battle_exp": {
+                    "value": 0,
+                    "label": "Battle Exp",
+                    "modifier": []
+                },
+                "combat_actions": {
+                    "value": 0,
+                    "label": "Combat Actions",
+                    "modifier": []
+                },
+                "combat_reaction": {
+                    "value": 0,
+                    "label": "Combat Reaction",
+                    "modifier": []
+                },
+                "cc_weapons": {
+                    "value": 0,
+                    "label": "C. C. Weapons",
+                    "modifier": []
+                },
+                "one_hand_weapons": {
+                    "value": 0,
+                    "label": "1h Weapons",
+                    "modifier": []
+                },
+                "two_hands_weapons": {
+                    "value": 0,
+                    "label": "2h Weapons",
+                    "modifier": []
+                },
+                "shields": {
+                    "value": 0,
+                    "label": "Shields",
+                    "modifier": []
+                },
+                "ranged_weapons": {
+                    "value": 0,
+                    "label": "Ranged Weapons",
+                    "modifier": []
+                },
+                "bows": {
+                    "value": 0,
+                    "label": "Bows",
+                    "modifier": []
+                },
+                "pistols": {
+                    "value": 0,
+                    "label": "Pistols",
+                    "modifier": []
+                },
+                "rifles": {
+                    "value": 0,
+                    "label": "Rifles",
+                    "modifier": []
+                },
+                "throwing_weapons": {
+                    "value": 0,
+                    "label": "Throwing Weapons",
+                    "modifier": []
+                },
+                "unarmed_fight": {
+                    "value": 0,
+                    "label": "Unarmed Fight",
+                    "modifier": []
+                },
+                "brawling": {
+                    "value": 0,
+                    "label": "Brawling",
+                    "modifier": []
+                },
+                "wrestling": {
+                    "value": 0,
+                    "label": "Wrestling",
+                    "modifier": []
+                },
+                "other_specialties": {
+                    "value": 0,
+                    "label": "Other Specialties",
+                    "modifier": []
+                },
+                "other_knowledges ": {
+                    "value": 0,
+                    "label": "Other Knowledges",
+                    "modifier": []
+                }
+            },
+            "groups": {}
+        }
+    },
+    "Item": {
+        "types": [
+            "item"
+        ],
+        "item": {
+            "description": "",
+            "quantity": 1,
+            "weight": 0,
+            "attributes": {},
+            "groups": {}
+        }
+    }
+}

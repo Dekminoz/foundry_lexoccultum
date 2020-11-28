@@ -1,0 +1,32 @@
+{
+    "SETTINGS.SimpleMacroShorthandN": "Syntaxe de macro raccourcie",
+    "SETTINGS.SimpleMacroShorthandL": "Activez une syntaxe de macro raccourcie qui permet de référencer directement les attributs, par exemple @str au lieu de @attributes.str.value. Désactivez ce paramètre si vous avez besoin de la possibilité de référencer le modèle d’attribut complet, par exemple @attributes.str.label.",
+    "SETTINGS.SimpleInitFormulaN": "Formule d'initiative",
+    "SETTINGS.SimpleInitFormulaL": "Entrer la formule d'initiative comme ceci : d20+@dex",
+
+    "SIMPLE.NotifyInitFormulaUpdated": "Formule d'iniative mise a jour vers:",
+    "SIMPLE.NotifyInitFormulaInvalid": "Cette formule d'inititive est invalide:",
+    "SIMPLE.NotifyGroupDuplicate": "Ce groupe d'attribut existe déja.",
+    "SIMPLE.NotifyGroupAttrDuplicate": "Le groupe d'attribut existe déja en tant qu'attribut.",
+    "SIMPLE.NotifyGroupAlphanumeric": "Le nom d'un attribut ne peux pas contenir d'espace ou de point.",
+    "SIMPLE.NotifyAttrDuplicate": "La clé d'attribut existe déja en tant que groupe.",
+
+    "SIMPLE.ResourceMin": "Min",
+    "SIMPLE.ResourceValue": "Valeur",
+    "SIMPLE.ResourceMax": "Max",
+
+    "SIMPLE.DefineTemplate": "Definir comme template",
+    "SIMPLE.UnsetTemplate": "Désactiver Template",
+    "SIMPLE.NoTemplate": "Pas de template",
+
+    "SIMPLE.AttributeKey": "Clé d'attribut",
+    "SIMPLE.AttributeValue": "Value",
+    "SIMPLE.AttributeLabel": "Label",
+    "SIMPLE.AttributeDtype": "Type de données",
+
+    "SIMPLE.DeleteGroup": "Supprimer le groupe?",
+    "SIMPLE.DeleteGroupContent": "Voulez vous supprimer le groupe? Cette action effacera le groupe et tout ses attributs: ",
+
+    "SIMPLE.Create": "Créer",
+    "SIMPLE.New": "Nouveau"
+}
