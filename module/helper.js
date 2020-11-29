@@ -20,8 +20,8 @@ export class EntitySheetHelper {
         // Build an array of sorted group keys.
         const groups = data.data.groups || {};
         let groupKeys = Object.keys(groups).sort((a, b) => {
-            let aSort = groups[a].label ? ? a;
-            let bSort = groups[b].label ? ? b;
+            let aSort = groups[a].label;
+            let bSort = groups[b].label;
             return aSort.localeCompare(bSort);
         });
 
@@ -176,12 +176,12 @@ export class EntitySheetHelper {
     static onAttributeRoll(event) {
         event.preventDefault();
         const button = event.currentTarget;
-        const label = button.closest(".attribute").querySelector(".attribute-label") ? .value;
-        const chatLabel = label ? ? button.parentElement.querySelector(".attribute-key").value;
+        const label = button.closest(".attribute").querySelector(".attribute-label").value;
+        const chatLabel = label;
         const shorthand = game.settings.get("lexoccultum", "macroShorthand");
         // Use the actor for rollData so that formulas are always in reference to the parent actor.
         const rollData = this.actor.getRollData();
-        let formula = button.closest(".attribute").querySelector(".attribute-value") ? .value;
+        let formula = button.closest(".attribute").querySelector(".attribute-value").value;
 
         // If there's a formula, attempt to roll it.
         if (formula) {
@@ -316,7 +316,7 @@ export class EntitySheetHelper {
         else {
             // Choose a default dtype based on the last attribute, fall back to "String".
             if (!dtype) {
-                let lastAttr = document.querySelector('.attributes > .attributes-group .attribute:last-child .attribute-dtype') ? .value;
+                let lastAttr = document.querySelector('.attributes > .attributes-group .attribute:last-child .attribute-dtype').value;
                 dtype = lastAttr ? lastAttr : "String";
                 htmlItems.dtype = {
                     type: "hidden",

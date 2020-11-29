@@ -193,7 +193,7 @@ export class SimpleActor extends Actor {
                 attr = attrKey[1];
             }
             // Non-grouped attributes.
-            if (data.attributes[k] ? .value) {
+            if (data.attributes[k].value) {
                 data.attributes[k].value = EntitySheetHelper.replaceData(data.attributes[k].value, data, { missing: "0" });
                 // TODO: Replace with:
                 // data.attributes[k].value = Roll.replaceFormulaData(data.attributes[k].value, data, {missing: "0"});
@@ -208,7 +208,7 @@ export class SimpleActor extends Actor {
             // Duplicate values to shorthand.
             if (!!shorthand) {
                 // Non-grouped attributes.
-                if (data.attributes[k] ? .value) {
+                if (data.attributes[k].value) {
                     data[k] = data.attributes[k].value;
                 }
                 // Grouped attributes.
