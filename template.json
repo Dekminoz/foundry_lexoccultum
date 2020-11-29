@@ -119,1152 +119,1255 @@
                 "agility": {
                     "value": 0,
                     "label": "Agility",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "body_control": {
                     "value": 0,
                     "label": "Body Control",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "ambidextry": {
                     "value": 0,
                     "label": "Ambidextry",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "evade": {
                     "value": 0,
                     "label": "Evade",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "parkour": {
                     "value": 0,
                     "label": "Parkour",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "horsemanship": {
                     "value": 0,
                     "label": "Horsemanship",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "driving_wagon": {
                     "value": 0,
                     "label": "Driving Wagon",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "riding": {
                     "value": 0,
                     "label": "Riding",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "water": {
                     "value": 0,
                     "label": "Water",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "swimming": {
                     "value": 0,
                     "label": "Swimming",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "diving": {
                     "value": 0,
                     "label": "Diving",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "animal_handling": {
                     "value": 0,
                     "label": "Animal Handling",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "animal_care": {
                     "value": 0,
                     "label": "Animal Care",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "hunt_with_animal": {
                     "value": 0,
                     "label": "Hunt With Animal",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "crafting": {
                     "value": 0,
                     "label": "Crafting",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "craftmans": {
                     "value": 0,
                     "label": "Craftmans",
-                    "modifier": []
-                },
-                "craftmans_txt": {
-                    "value": 0,
-                    "label": "Craftmans",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "craftmans_bis": {
                     "value": 0,
                     "label": "Craftmans",
-                    "modifier": []
-                },
-                "craftmans_bis_txt": {
-                    "value": 0,
-                    "label": "Craftmans",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "forgery": {
                     "value": 0,
                     "label": "Forgery",
-                    "modifier": []
-                },
-                "forgery_txt": {
-                    "value": 0,
-                    "label": "Forgery",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "forgery_bis": {
                     "value": 0,
                     "label": "Forgery",
-                    "modifier": []
-                },
-                "forgery_bis_txt": {
-                    "value": 0,
-                    "label": "Forgery",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "hunt_and_fish": {
                     "value": 0,
                     "label": "Hunt And Fish",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "fishing": {
                     "value": 0,
                     "label": "Fishing",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "hunting": {
                     "value": 0,
                     "label": "Hunting",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "tracking": {
                     "value": 0,
                     "label": "Tracking",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "culture": {
                     "value": 0,
                     "label": "Culture",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "civics": {
                     "value": 0,
                     "label": "Civics",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "administration": {
                     "value": 0,
                     "label": "Administration",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "bribery": {
                     "value": 0,
                     "label": "Bribery",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "economics": {
                     "value": 0,
                     "label": "Economics",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "heraldry": {
                     "value": 0,
                     "label": "Heraldry",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "law": {
                     "value": 0,
                     "label": "Law",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "humanities": {
                     "value": 0,
                     "label": "Humanities",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "archaeology": {
                     "value": 0,
                     "label": "Archaeology",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "history": {
                     "value": 0,
                     "label": "History",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "literature_and_arts": {
                     "value": 0,
                     "label": "Literature & Arts",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "philosophy": {
                     "value": 0,
                     "label": "Philosophy",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "science": {
                     "value": 0,
                     "label": "Science",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "appl_science": {
                     "value": 0,
                     "label": "Appl. Science",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "pharmaceutics": {
                     "value": 0,
                     "label": "Pharmaceutics",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "technology": {
                     "value": 0,
                     "label": "Technology",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "healthcare": {
                     "value": 0,
                     "label": "Healthcare",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "healing": {
                     "value": 0,
                     "label": "Healing",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "mental_care": {
                     "value": 0,
                     "label": "Mental Care",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "nat_philosophy": {
                     "value": 0,
                     "label": "Nat. Philosophy",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "Biology": {
                     "value": 0,
                     "label": "biology",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "chemistry": {
                     "value": 0,
                     "label": "Chemistry",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "geology": {
                     "value": 0,
                     "label": "Geology",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "mathematics": {
                     "value": 0,
                     "label": "Mathematics",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "physics": {
                     "value": 0,
                     "label": "Physics",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "transmutations": {
                     "value": 0,
                     "label": "Transmutations",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "alchemy": {
                     "value": 0,
                     "label": "Alchemy",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "communication": {
                     "value": 0,
                     "label": "Communication",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "etiquette": {
                     "value": 0,
                     "label": "Etiquette",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "social_int": {
                     "value": 0,
                     "label": "Social Int",
-                    "modifier": []
-                },
-                "social_int_txt": {
-                    "value": 0,
-                    "label": "Social Int",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "social_int_bis": {
                     "value": 0,
                     "label": "Social Int",
-                    "modifier": []
-                },
-                "social_int_bis_txt": {
-                    "value": 0,
-                    "label": "Social Int",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "social_int_ter": {
                     "value": 0,
                     "label": "Social Int",
-                    "modifier": []
-                },
-                "social_int_ter_txt": {
-                    "value": 0,
-                    "label": "Social Int",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "social_int_quart": {
                     "value": 0,
                     "label": "Social Int",
-                    "modifier": []
-                },
-                "social_int_quart_txt": {
-                    "value": 0,
-                    "label": "Social Int",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "vogue": {
                     "value": 0,
                     "label": "Vogue",
-                    "modifier": []
-                },
-                "vogue_txt": {
-                    "value": 0,
-                    "label": "Vogue",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "vogue_bis": {
                     "value": 0,
                     "label": "Vogue",
-                    "modifier": []
-                },
-                "vogue_bis_txt": {
-                    "value": 0,
-                    "label": "Vogue",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "vogue_ter": {
                     "value": 0,
                     "label": "Vogue",
-                    "modifier": []
-                },
-                "vogue_ter_txt": {
-                    "value": 0,
-                    "label": "Vogue",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "languages": {
                     "value": 0,
                     "label": "Languages",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "foreign": {
                     "value": 0,
                     "label": "Foreign L",
-                    "modifier": []
-                },
-                "foreign_txt": {
-                    "value": 0,
-                    "label": "Foreign L",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "foreign_bis": {
                     "value": 0,
                     "label": "Foreign L",
-                    "modifier": []
-                },
-                "foreign_bis_txt": {
-                    "value": 0,
-                    "label": "Foreign L",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "foreign_ter": {
                     "value": 0,
                     "label": "Foreign L",
-                    "modifier": []
-                },
-                "foreign_ter_txt": {
-                    "value": 0,
-                    "label": "Foreign L",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "r_and_w": {
                     "value": 0,
                     "label": "R&W",
-                    "modifier": []
-                },
-                "r_and_w_txt": {
-                    "value": 0,
-                    "label": "R&W",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "r_and_w_bis": {
                     "value": 0,
                     "label": "R&W",
-                    "modifier": []
-                },
-                "r_and_w_bis_txt": {
-                    "value": 0,
-                    "label": "R&W",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "native_language": {
                     "value": 0,
                     "label": "Native L",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "rhetoric": {
                     "value": 0,
                     "label": "Rhetoric",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "bartering": {
                     "value": 0,
                     "label": "Bartering",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "persuasion": {
                     "value": 0,
                     "label": "Persuasion",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "stealth": {
                     "value": 0,
                     "label": "Stealth",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "avoidance": {
                     "value": 0,
                     "label": "Avoidance",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "disguises": {
                     "value": 0,
                     "label": "Disguises",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "hide_and_camouflage": {
                     "value": 0,
                     "label": "Hide & Camouflage",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "sneaking": {
                     "value": 0,
                     "label": "Sneaking",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "veild Strike": {
                     "value": 0,
                     "label": "Veild Strike",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "detection": {
                     "value": 0,
                     "label": "Detection",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "detetct_hidden": {
                     "value": 0,
                     "label": "Detetct Hidden",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "lip_reader": {
                     "value": 0,
                     "label": "Lip Reader",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "observation": {
                     "value": 0,
                     "label": "Observation",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "sleight_of_hand": {
                     "value": 0,
                     "label": "Sleight of Hand",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "arm_disarm_traps": {
                     "value": 0,
                     "label": "Arm/Disarm Traps",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "concealing": {
                     "value": 0,
                     "label": "Concealing",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "lock_picking": {
                     "value": 0,
                     "label": "Lock Picking",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "pickpocketing": {
                     "value": 0,
                     "label": "Pickpocketing",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "thief_signs": {
                     "value": 0,
                     "label": "Thief Signs",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "entertainment": {
                     "value": 0,
                     "label": "Entertainment",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "act_and_Dance": {
                     "value": 0,
                     "label": "Act & Dance",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "acting": {
                     "value": 0,
                     "label": "Acting",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "choreography": {
                     "value": 0,
                     "label": "Choreography",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "dancing": {
                     "value": 0,
                     "label": "Dancing",
-                    "modifier": []
-                },
-                "dancing_txt": {
-                    "value": 0,
-                    "label": "Dancing",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "dancing_bis": {
                     "value": 0,
                     "label": "Dancing",
-                    "modifier": []
-                },
-                "dancing_bis_txt": {
-                    "value": 0,
-                    "label": "Dancing",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "circus_acts": {
                     "value": 0,
                     "label": "Circus Acts",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "fakir_tricks": {
                     "value": 0,
                     "label": "Fakir Tricks",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "juggling": {
                     "value": 0,
                     "label": "Juggling",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "rope_walking": {
                     "value": 0,
                     "label": "Rope Walking",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "gambling": {
                     "value": 0,
                     "label": "Gambling",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "cheating": {
                     "value": 0,
                     "label": "Cheating",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "games": {
                     "value": 0,
                     "label": "Games",
-                    "modifier": []
-                },
-                "games_txt": {
-                    "value": 0,
-                    "label": "Games",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "games_bis": {
                     "value": 0,
                     "label": "Games",
-                    "modifier": []
-                },
-                "games_bis_txt": {
-                    "value": 0,
-                    "label": "Games",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "illicit_gaming": {
                     "value": 0,
                     "label": "Illicit Gaming",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "music": {
                     "value": 0,
                     "label": "Music",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "composing": {
                     "value": 0,
                     "label": "Composing",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "play_inst": {
                     "value": 0,
                     "label": "Play. Inst",
-                    "modifier": []
-                },
-                "play_inst_txt": {
-                    "value": 0,
-                    "label": "Play. Inst",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "play_inst_bis": {
                     "value": 0,
                     "label": "Play. Inst",
-                    "modifier": []
-                },
-                "play_inst_bis_txt": {
-                    "value": 0,
-                    "label": "Play. Inst",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "singing": {
                     "value": 0,
                     "label": "Singing",
-                    "modifier": []
-                },
-                "singing_txt": {
-                    "value": 0,
-                    "label": "Singing",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "singing_bis": {
                     "value": 0,
                     "label": "Singing",
-                    "modifier": []
-                },
-                "singing_bis_txt": {
-                    "value": 0,
-                    "label": "Singing",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "theology": {
                     "value": 0,
                     "label": "Theology",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "de_religionibus": {
                     "value": 0,
                     "label": "De Religionibus",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "dsrr": {
                     "value": 0,
                     "label": "D.s.r.R.",
-                    "modifier": []
-                },
-                "dsrr_txt": {
-                    "value": 0,
-                    "label": "D.s.r.R.",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "dsrr_bis": {
                     "value": 0,
                     "label": "D.s.r.R.",
-                    "modifier": []
-                },
-                "dsrr_bis_txt": {
-                    "value": 0,
-                    "label": "D.s.r.R.",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "iconogr": {
                     "value": 0,
                     "label": "Iconogr.",
-                    "modifier": []
-                },
-                "iconogr_txt": {
-                    "value": 0,
-                    "label": "Iconogr.",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "iconogr_bis": {
                     "value": 0,
                     "label": "Iconogr.",
-                    "modifier": []
-                },
-                "iconogr_bis_txt": {
-                    "value": 0,
-                    "label": "Iconogr.",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "knm": {
                     "value": 0,
                     "label": "Kn. M.",
-                    "modifier": []
-                },
-                "knm_txt": {
-                    "value": 0,
-                    "label": "Kn. M.",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "knm_bis": {
                     "value": 0,
                     "label": "Kn. M.",
-                    "modifier": []
-                },
-                "knm_bis_txt": {
-                    "value": 0,
-                    "label": "Kn. M.",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "religio": {
                     "value": 0,
                     "label": "Religio",
-                    "modifier": []
-                },
-                "religio_txt": {
-                    "value": 0,
-                    "label": "Religio",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "religio_bis": {
                     "value": 0,
                     "label": "Religio",
-                    "modifier": []
-                },
-                "religio_bis_txt": {
-                    "value": 0,
-                    "label": "Religio",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "rell": {
                     "value": 0,
                     "label": "Rel. L",
-                    "modifier": []
-                },
-                "rell_txt": {
-                    "value": 0,
-                    "label": "Rel. L",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "rell_bis": {
                     "value": 0,
                     "label": "Rel. L",
-                    "modifier": []
-                },
-                "rell_bis_txt": {
-                    "value": 0,
-                    "label": "Rel. L",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "divine_arts": {
                     "value": 0,
                     "label": "Divine Arts",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "holy_power": {
                     "value": 0,
                     "label": "Holy Power",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "incite_courage": {
                     "value": 0,
                     "label": "Incite Courage",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "mysticism": {
                     "value": 0,
                     "label": "Mysticism",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "pastoral_care": {
                     "value": 0,
                     "label": "Pastoral Care",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "esotericism": {
                     "value": 0,
                     "label": "Esotericism",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "de_sodaliciorum": {
                     "value": 0,
                     "label": "De Sodaliciorum",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "esoteric_symbolism": {
                     "value": 0,
                     "label": "Esoteric Symbolism",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "occult_literature": {
                     "value": 0,
                     "label": "Occult Literature",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "s_r_doctus": {
                     "value": 0,
                     "label": "S.r.Doctus",
-                    "modifier": []
-                },
-                "s_r_doctus_txt": {
-                    "value": 0,
-                    "label": "S.r.Doctus",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "s_r_doctus_bis": {
                     "value": 0,
                     "label": "S.r.Doctus",
-                    "modifier": []
-                },
-                "s_r_doctus_bis_txt": {
-                    "value": 0,
-                    "label": "S.r.Doctus",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "s_r_doctus_ter": {
                     "value": 0,
                     "label": "S.r.Doctus",
-                    "modifier": []
-                },
-                "s_r_doctus_ter_txt": {
-                    "value": 0,
-                    "label": "S.r.Doctus",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "divination": {
                     "value": 0,
                     "label": "Divination",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "numerology": {
                     "value": 0,
                     "label": "Numerology",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "seer": {
                     "value": 0,
                     "label": "Seer",
-                    "modifier": []
-                },
-                "seer_txt": {
-                    "value": 0,
-                    "label": "Seer",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "seer_bis": {
                     "value": 0,
                     "label": "Seer",
-                    "modifier": []
-                },
-                "seer_bis_txt": {
-                    "value": 0,
-                    "label": "Seer",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "supernat_beings": {
                     "value": 0,
                     "label": "Supernat. Beings",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "beastiology": {
                     "value": 0,
                     "label": "Beastiology",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "the_l_h_path": {
                     "value": 0,
                     "label": "The l. h. Path",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "black_magic": {
                     "value": 0,
                     "label": "Black Magic",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "medicina_mentis_lh": {
                     "value": 0,
                     "label": "Medicina Mentis",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "sinistra ": {
                     "value": 0,
                     "label": "Sinistra",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "the_r_h_path": {
                     "value": 0,
                     "label": "The r. h. Path ",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "white_magic": {
                     "value": 0,
                     "label": "White Magic",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "medicina_mentis_rh": {
                     "value": 0,
                     "label": "Medicina Mentis",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "dextera": {
                     "value": 0,
                     "label": "Dextera",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "well_travelled": {
                     "value": 0,
                     "label": "Well-Travelled",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "social_studies": {
                     "value": 0,
                     "label": "Social Studies",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "geography": {
                     "value": 0,
                     "label": "Geography",
-                    "modifier": []
-                },
-                "geography_txt": {
-                    "value": 0,
-                    "label": "Geography",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "geography_bis": {
                     "value": 0,
                     "label": "Geography",
-                    "modifier": []
-                },
-                "geography_bis_txt": {
-                    "value": 0,
-                    "label": "Geography",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "geography_ter": {
                     "value": 0,
                     "label": "Geography",
-                    "modifier": []
-                },
-                "geography_ter_txt": {
-                    "value": 0,
-                    "label": "Geography",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "geography_quart": {
                     "value": 0,
                     "label": "Geography",
-                    "modifier": []
-                },
-                "geography_quart_txt": {
-                    "value": 0,
-                    "label": "Geography",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "knpc": {
                     "value": 0,
                     "label": "Kn.P/C.",
-                    "modifier": []
-                },
-                "knpc_txt": {
-                    "value": 0,
-                    "label": "Kn.P/C.",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "knpc_bis": {
                     "value": 0,
                     "label": "Kn.P/C.",
-                    "modifier": []
-                },
-                "knpc_bis_txt": {
-                    "value": 0,
-                    "label": "Kn.P/C.",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "knpc_ter": {
                     "value": 0,
                     "label": "Kn.P/C.",
-                    "modifier": []
-                },
-                "knpc_ter_txt": {
-                    "value": 0,
-                    "label": "Kn.P/C.",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "knpc_quart": {
                     "value": 0,
                     "label": "Kn.P/C.",
-                    "modifier": []
-                },
-                "knpc_quart_txt": {
-                    "value": 0,
-                    "label": "Kn.P/C.",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "pow_sph": {
                     "value": 0,
                     "label": "Pow. Sph.",
-                    "modifier": []
-                },
-                "pow_sph_txt": {
-                    "value": 0,
-                    "label": "Pow. Sph.",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "pow_sph_bis": {
                     "value": 0,
                     "label": "Pow. Sph.",
-                    "modifier": []
-                },
-                "pow_sph_bis_txt": {
-                    "value": 0,
-                    "label": "Pow. Sph.",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "pow_sph_ter": {
                     "value": 0,
                     "label": "Pow. Sph.",
-                    "modifier": []
-                },
-                "pow_sph_ter_txt": {
-                    "value": 0,
-                    "label": "Pow. Sph.",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "pow_sph_quart": {
                     "value": 0,
                     "label": "Pow. Sph.",
-                    "modifier": []
-                },
-                "pow_sph_quart_txt": {
-                    "value": 0,
-                    "label": "Pow. Sph.",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 1
                 },
                 "survival": {
                     "value": 0,
                     "label": "Survival",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "camping": {
                     "value": 0,
                     "label": "Camping",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "travelling": {
                     "value": 0,
                     "label": "Travelling",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "fighting": {
                     "value": 0,
                     "label": "Fighting",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "battle_exp": {
                     "value": 0,
                     "label": "Battle Exp",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "combat_actions": {
                     "value": 0,
                     "label": "Combat Actions",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "combat_reaction": {
                     "value": 0,
                     "label": "Combat Reaction",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "cc_weapons": {
                     "value": 0,
                     "label": "C. C. Weapons",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "one_hand_weapons": {
                     "value": 0,
                     "label": "1h Weapons",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "two_hands_weapons": {
                     "value": 0,
                     "label": "2h Weapons",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "shields": {
                     "value": 0,
                     "label": "Shields",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "ranged_weapons": {
                     "value": 0,
                     "label": "Ranged Weapons",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "bows": {
                     "value": 0,
                     "label": "Bows",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "pistols": {
                     "value": 0,
                     "label": "Pistols",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "rifles": {
                     "value": 0,
                     "label": "Rifles",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "throwing_weapons": {
                     "value": 0,
                     "label": "Throwing Weapons",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "unarmed_fight": {
                     "value": 0,
                     "label": "Unarmed Fight",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "brawling": {
                     "value": 0,
                     "label": "Brawling",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "wrestling": {
                     "value": 0,
                     "label": "Wrestling",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 0
                 },
                 "other_specialties": {
                     "value": 0,
                     "label": "Other Specialties",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 2
                 },
                 "other_knowledges ": {
                     "value": 0,
                     "label": "Other Knowledges",
-                    "modifier": []
+                    "modifier": [],
+                    "description": "",
+                    "hasDescription": 2
                 }
             },
             "groups": {}

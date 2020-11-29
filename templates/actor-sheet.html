@@ -72,8 +72,8 @@
 
                     <div class="skill-editbox flexrow">
 
-                        <input class="skill-value" type="text" name="data.skills.{{key}}.value" value="{{skill.value}}" data-dtype="Number" />
-
+                        <span><input class="skill-value" type="text" name="data.skills.{{key}}.value" value="{{skill.value}}" data-dtype="Number" /></span> {{#if skill.hasDescription == 1}}
+                        <span><input class="skill-desc" type="text" name="data.skills.{{key}}.description" value="{{skill.description}}" data-dtype="Text" /></span>{{/if}}
                     </div>
                 </li>
 
