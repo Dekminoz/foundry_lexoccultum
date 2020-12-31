@@ -7,9 +7,7 @@ export const preloadHandlebarsTemplates = async function() {
 
     // Define template paths to load
     const templatePaths = [
-        // Attribute list partial.
-        "systems/lexoccultum/templates/parts/sheet-attributes.html",
-        "systems/lexoccultum/templates/parts/sheet-groups.html"
+        // Item list partial.
     ];
 
     // Load the template parts

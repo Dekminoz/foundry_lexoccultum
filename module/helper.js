@@ -107,7 +107,7 @@ export class EntitySheetHelper {
                 let groups = document.querySelectorAll('.group-key');
                 for (let i = 0; i < groups.length; i++) {
                     if (groups[i].value == val) {
-                        ui.notifications.error(game.i18n.localize("SIMPLE.NotifyAttrDuplicate") + ` (${val})`);
+                        ui.notifications.error(game.i18n.localize("LEXOCCULTUM.NotifyAttrDuplicate") + ` (${val})`);
                         el.value = oldVal;
                         attrError = true;
                         break;
@@ -238,19 +238,19 @@ export class EntitySheetHelper {
 
         // Check for duplicate group keys.
         if (groups.includes(groupName)) {
-            ui.notifications.error(game.i18n.localize("SIMPLE.NotifyGroupDuplicate") + ` (${groupName})`);
+            ui.notifications.error(game.i18n.localize("LEXOCCULTUM.NotifyGroupDuplicate") + ` (${groupName})`);
             return false;
         }
 
         // Check for group keys that match attribute keys.
         if (attributes.includes(groupName)) {
-            ui.notifications.error(game.i18n.localize("SIMPLE.NotifyGroupAttrDuplicate") + ` (${groupName})`);
+            ui.notifications.error(game.i18n.localize("LEXOCCULTUM.NotifyGroupAttrDuplicate") + ` (${groupName})`);
             return false;
         }
 
         // Check for whitespace or periods.
         if (groupName.match(/[\s|\.]/i)) {
-            ui.notifications.error(game.i18n.localize("SIMPLE.NotifyGroupAlphanumeric"));
+            ui.notifications.error(game.i18n.localize("LEXOCCULTUM.NotifyGroupAlphanumeric"));
             return false;
         }
 
@@ -385,8 +385,8 @@ export class EntitySheetHelper {
         let group = $(groupHeader).find('.group-key');
         // Create a dialog to confirm group deletion.
         new Dialog({
-            title: game.i18n.localize("SIMPLE.DeleteGroup"),
-            content: `${game.i18n.localize("SIMPLE.DeleteGroupContent")} <strong>${group.val()}</strong>`,
+            title: game.i18n.localize("LEXOCCULTUM.DeleteGroup"),
+            content: `${game.i18n.localize("LEXOCCULTUM.DeleteGroupContent")} <strong>${group.val()}</strong>`,
             buttons: {
                 confirm: {
                     icon: '<i class="fas fa-trash"></i>',
@@ -402,111 +402,6 @@ export class EntitySheetHelper {
                 }
             }
         }).render(true);
-    }
-
-    /* -------------------------------------------- */
-
-    /**
-     * Update attributes when updating an actor object.
-     *
-     * @param {Object} formData Form data object to modify keys and values for.
-     * @returns {Object} updated formData object.
-     */
-    static updateAttributes(formData, entity) {
-        let groupKeys = [];
-
-        // Handle the free-form attributes list
-        const formAttrs = expandObject(formData).data.attributes || {};
-        const attributes = Object.values(formAttrs).reduce((obj, v) => {
-            let attrs = [];
-            let group = null;
-            // Handle attribute keys for grouped attributes.
-            if (!v["key"]) {
-                attrs = Object.keys(v);
-                attrs.forEach(attrKey => {
-                    group = v[attrKey]['group'];
-                    groupKeys.push(group);
-                    let attr = v[attrKey];
-                    let k = v[attrKey]["key"] ? v[attrKey]["key"].trim() : attrKey.trim();
-                    if (/[\s\.]/.test(k)) return ui.notifications.error("Attribute keys may not contain spaces or periods");
-                    delete attr["key"];
-                    // Add the new attribute if it's grouped, but we need to build the nested structure first.
-                    if (!obj[group]) {
-                        obj[group] = {};
-                    }
-                    obj[group][k] = attr;
-                });
-            }
-            // Handle attribute keys for ungrouped attributes.
-            else {
-                let k = v["key"].trim();
-                if (/[\s\.]/.test(k)) return ui.notifications.error("Attribute keys may not contain spaces or periods");
-                delete v["key"];
-                // Add the new attribute only if it's ungrouped.
-                if (!group) {
-                    obj[k] = v;
-                }
-            }
-            return obj;
-        }, {});
-
-        // Remove attributes which are no longer used
-        for (let k of Object.keys(entity.object.data.data.attributes)) {
-            if (!attributes.hasOwnProperty(k)) attributes[`-=${k}`] = null;
-        }
-
-        // Remove grouped attributes which are no longer used.
-        for (let group of groupKeys) {
-            if (entity.object.data.data.attributes[group]) {
-                for (let k of Object.keys(entity.object.data.data.attributes[group])) {
-                    if (!attributes[group].hasOwnProperty(k)) attributes[group][`-=${k}`] = null;
-                }
-            }
-        }
-
-        // Re-combine formData
-        formData = Object.entries(formData).filter(e => !e[0].startsWith("data.attributes")).reduce((obj, e) => {
-            obj[e[0]] = e[1];
-            return obj;
-        }, { _id: entity.object._id, "data.attributes": attributes });
-
-        return formData;
-    }
-
-    /**
-     * Update attribute groups when updating an actor object.
-     *
-     * @param {Object} formData Form data object to modify keys and values for.
-     * @returns {Object} updated formData object.
-     */
-    static updateGroups(formData, entity) {
-        // Handle the free-form groups list
-        const formGroups = expandObject(formData).data.groups || {};
-        const groups = Object.values(formGroups).reduce((obj, v) => {
-            // If there are duplicate groups, collapse them.
-            if (Array.isArray(v["key"])) {
-                v["key"] = v["key"][0];
-            }
-            // Trim and clean up.
-            let k = v["key"].trim();
-            if (/[\s\.]/.test(k)) return ui.notifications.error("Group keys may not contain spaces or periods");
-            delete v["key"];
-            obj[k] = v;
-            return obj;
-        }, {});
-
-        // Remove groups which are no longer used
-        for (let k of Object.keys(entity.object.data.data.groups)) {
-            if (!groups.hasOwnProperty(k)) groups[`-=${k}`] = null;
-        }
-
-        // Re-combine formData
-        formData = Object.entries(formData).filter(e => !e[0].startsWith("data.groups")).reduce((obj, e) => {
-            obj[e[0]] = e[1];
-            return obj;
-        }, { _id: entity.object._id, "data.groups": groups });
-
-        return formData;
     }
 
     /* -------------------------------------------- */

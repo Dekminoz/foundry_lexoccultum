@@ -7,14 +7,25 @@
     "compatibleCoreVersion": "0.7.3",
     "templateVersion": 2,
     "author": "Hectelyon",
-    "esmodules": ["module/simple.js"],
-    "styles": ["styles/simple.css"],
+    "esmodules": [
+        "module/init.js"
+    ],
+    "styles": [
+        "styles/simple.css"
+    ],
     "packs": [],
-    "languages": [{
-        "lang": "fr",
-        "name": "Français",
-        "path": "lang/fr.json"
-    }],
+    "languages": [
+        {
+            "lang": "fr",
+            "name": "Français",
+            "path": "lang/fr.json"
+        },
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ],
     "gridDistance": 5,
     "gridUnits": "ft",
     "primaryTokenAttribute": "health",

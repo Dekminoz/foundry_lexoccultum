@@ -1,7 +1,7 @@
 .lexoccultum {
     /* Sheet Tabs */
     /* Items List */
-    /* Attributes */
+    /* Items */
 }
 
 .lexoccultum .window-content {
@@ -135,19 +135,19 @@
     width: auto;
 }
 
-.lexoccultum .attributes {
+.lexoccultum .items {
     position: relative;
 }
 
-.lexoccultum .attributes .attribute-control,
-.lexoccultum .attributes .group-control {
+.lexoccultum .items .item-control,
+.lexoccultum .items .group-control {
     flex: 0 0 20px;
     text-align: center;
     line-height: 28px;
     border: none;
 }
 
-.lexoccultum .attributes .attribute-roll {
+.lexoccultum .items .item-roll {
     flex: 0 0 20px;
     text-align: center;
     border-bottom: none;
@@ -156,12 +156,12 @@
     justify-content: center;
 }
 
-.lexoccultum .attributes .group-prefix {
+.lexoccultum .items .group-prefix {
     height: 31px;
     margin-right: 10px;
 }
 
-.lexoccultum .attributes .button {
+.lexoccultum .items .button {
     width: 100%;
     flex: 1;
     margin: 0;
@@ -173,12 +173,12 @@
     display: block;
 }
 
-.lexoccultum .attributes .attribute-key {
+.lexoccultum .items .item-key {
     background: transparent;
     border: none;
 }
 
-.lexoccultum .attributes-header {
+.lexoccultum .items-header {
     position: sticky;
     top: 0;
     left: 0;
@@ -192,13 +192,13 @@
     font-weight: bold;
 }
 
-.lexoccultum .attributes-list {
+.lexoccultum .items-list {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.lexoccultum .attributes-list li>* {
+.lexoccultum .items-list li>* {
     margin: 0 3px;
     height: 28px;
     line-height: 24px;
@@ -208,26 +208,26 @@
     border-bottom: 1px solid #AAA;
 }
 
-.lexoccultum .attributes-list .attribute-col label {
+.lexoccultum .items-list .item-col label {
     font-size: 10px;
     text-align: center;
     line-height: 1;
 }
 
-.lexoccultum .attributes-list .attribute-col input {
+.lexoccultum .items-list .item-col input {
     font-size: 11px;
     text-align: center;
     line-height: 1;
     height: 50%;
 }
 
-.lexoccultum .attribute input[type="text"]::placeholder,
+.lexoccultum .item input[type="text"]::placeholder,
 .lexoccultum .group-header input[type="text"]::placeholder {
     opacity: 0;
     transition: opacity 0.25s ease-in-out;
 }
 
-.lexoccultum .attribute input[type="text"]:focus::placeholder,
+.lexoccultum .item input[type="text"]:focus::placeholder,
 .lexoccultum .group-header input[type="text"]:focus::placeholder {
     opacity: 1;
 }

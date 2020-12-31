@@ -1,5 +1,5 @@
 /**
- * Create a Macro from an attribute drop.
+ * Create a Macro from an item drop.
  * Get an existing lexoccultum macro if one exists, otherwise create a new one.
  * @param {Object} data     The dropped data
  * @param {number} slot     The hotbar slot to use
