@@ -1,0 +1,343 @@
+<form class="flexcol {{cssClass}}" autocomplete="off">
+  {{!-- Sheet Header --}}
+  <header class="sheet-header">
+    <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="100" width="100" />
+    <div class="header-fields">
+      <h1 class="charname">
+        <input name="name" type="text" value="{{actor.name}}" placeholder="Name" />
+      </h1>
+      <div class="resource">
+        <input type="text" name="data.health.value" value="{{data.health.value}}" data-dtype="Number" />
+        <span> / </span>
+        <input type="text" name="data.health.max" value="{{data.health.max}}" data-dtype="Number" />
+      </div>
+      <div class="resource">
+        <input type="text" name="data.sanity.value" value="{{data.sanity.value}}" data-dtype="Number" />
+        <span> / </span>
+        <input type="text" name="data.sanity.max" value="{{data.sanity.max}}" data-dtype="Number" />
+      </div>
+    </div>
+  </header>
+
+  {{!-- Sheet Tab Navigation --}}
+  <nav class="sheet-tabs tabs" data-group="primary">
+    <a class="item" data-tab="main">{{localize "LEXOCCULTUM.TAB.MAIN"}}</a>
+    <a class="item" data-tab="skills">{{localize "LEXOCCULTUM.TAB.SKILLS"}}</a>
+    <a class="item" data-tab="items">{{localize "LEXOCCULTUM.TAB.ITEMS"}}</a>
+    <a class="item" data-tab="spheres">{{localize "LEXOCCULTUM.TAB.SPHERES"}}</a>
+    <a class="item" data-tab="description">{{localize "LEXOCCULTUM.TAB.BIO"}}</a>
+  </nav>
+
+  {{!-- Sheet Body --}}
+  <section class="sheet-body">
+    {{!-- Main Tab --}}
+    <div class="tab main" data-group="primary" data-tab="main">
+      <div class="helpers row mb-2 mt-2">
+        <div class="col-3">
+          <div id="closeCombatPts">0</div>
+          <h3>{{localize "LEXOCCULTUM.HELPERS.CLOSECOMBATPTS"}}</h3>
+        </div>
+        <div class="col-3">
+          <div id="rangedCombatPts">0</div>
+          <h3>{{localize "LEXOCCULTUM.HELPERS.RANGEDCOMBATPTS"}}</h3>
+        </div>
+        <div class="col-3">
+          <div id="weaponPts" data-mi="0" data-mo="0">0</div>
+          <h3>{{localize "LEXOCCULTUM.HELPERS.WEAPONPTS"}}</h3>
+        </div>
+        <div class="col-3">
+          <div>
+            <input type="number" disabled name="data.header.move.value" value="{{data.header.move.value}}"
+            data-dtype="Number" />
+          </div>
+          <h3>{{localize "LEXOCCULTUM.MAIN.MOUVEMENT"}}</h3>
+        </div>
+        <div class="col-3 flexCenter">
+          <span>
+            <a class="btn" id="rollInit"> {{localize "LEXOCCULTUM.ROLL.INITIATIVE"}} </a>
+          </span>
+        </div>
+      </div>
+      <div class="traits ">
+        <div class="traits-list row">
+          {{#each data.traits as |trait key|}}
+          <div class="trait col-1" data-skill="{{key}}">
+            <div class="trait-editbox">
+              <div>
+                <input class="trait-value" type="number" name="data.traits.{{key}}.value" value="{{trait.value}}"
+                  data-dtype="Number" />
+              </div>
+              <div>
+                <a class="btn rollable m-5px" data-name="data.traits.{{key}}.value" data-value="{{trait.value}}">
+                  {{label}}
+                </a>
+              </div>
+            </div>
+          </div>
+          {{/each}}
+        </div>
+      </div>
+    </div>
+    {{!-- Biography Tab --}}
+    <div class="tab biography" data-group="primary" data-tab="description">
+      {{editor content=data.biography target="data.biography" button=true
+      owner=owner editable=editable}}
+    </div>
+
+    {{!-- Owned Items Tab --}}
+    <div class="tab" data-group="primary" data-tab="items">
+      <div class="items">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2>{{localize "LEXOCCULTUM.TITLE.ARMOR"}}</h2>
+          </div>
+        </div>
+        <table class="header flex">
+          <thead>
+            <th><b class="image">{{localize "LEXOCCULTUM.GEAR.ARMOR.IMAGE"}}</b></th>
+            <th><b class="name">{{localize "LEXOCCULTUM.GEAR.ARMOR.NAME"}}</b></th>
+            <th><b class="actions">{{localize "LEXOCCULTUM.GEAR.ARMOR.ACTIONS"}}</b></th>
+            <th>
+              <a class="button item-create" title="{{localize " LEXOCCULTUM.TITLE.ADD_ARMOR"}}" data-type="armor"><i
+                  class="fas fa-plus"></i></a>
+            </th>
+          </thead>
+          <tbody>
+            {{#each actor.items as |item|}} {{#ifeq item.type "armor" }}
+            <tr class="gear item flex" data-item-id="{{item._id}}">
+              <td class="image-container">
+                <div class="image" style="background-image: url('{{item.img}}')"></div>
+              </td>
+              <td class="name">{{item.name}}</td>
+              <td class="button">
+                <a class="item-control item-edit" title="{{localize " LEXOCCULTUM.TITLE.EDIT_ITEM"}}"><i
+                    class="fas fa-edit"></i></a>
+                <a class="item-control item-post" title="{{localize " LEXOCCULTUM.TITLE.POST_ITEM"}}"><i
+                    class="fas fa-comment"></i></a>
+                <a class="item-control item-delete" title="{{localize " LEXOCCULTUM.TITLE.DELETE_ITEM"}}"><i
+                    class="fas fa-trash"></i></a>
+              </td>
+              {{/ifeq}} {{/each}}
+            </tr>
+          </tbody>
+        </table>
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2>{{localize "LEXOCCULTUM.TITLE.WEAPON"}}</h2>
+          </div>
+        </div>
+        <table class="header flex">
+          <thead>
+            <th><b class="image">{{localize "LEXOCCULTUM.GEAR.WEAPON.IMAGE"}}</b></th>
+            <th><b class="name">{{localize "LEXOCCULTUM.GEAR.WEAPON.NAME"}}</b></th>
+            <th><b class="activation">{{localize "LEXOCCULTUM.GEAR.WEAPON.ACTIVATION"}}</b></th>
+            <th><b class="weight">{{localize "LEXOCCULTUM.GEAR.WEAPON.ACTIONS"}}</b></th>
+            <th>
+              <a class="button item-create" title="{{localize " LEXOCCULTUM.TITLE.ADD_WEAPON"}}" data-type="weapon"><i
+                  class="fas fa-plus"></i></a>
+            </th>
+          </thead>
+          <tbody>
+            {{#each actor.items as |item|}} {{#ifeq item.type "weapon" }}
+            <tr class="gear item flex" data-item-id="{{item._id}}">
+              <td class="image-container">
+                <div class="image" style="background-image: url('{{item.img}}')"></div>
+              </td>
+              <td class="name">{{item.name}}</td>
+              <td class="activation">
+                <input class="activate" type="checkbox" data-mi="{{item.data.mi}}" data-mo="{{item.data.mo}}"
+                  data-pa="{{item.data.pa}}" value="{{item._id}}" />
+              </td>
+              <td class="button">
+                <a class="item-control item-edit" title="{{localize " LEXOCCULTUM.TITLE.EDIT_ITEM"}}"><i
+                    class="fas fa-edit"></i></a>
+                <a class="item-control item-post" title="{{localize " LEXOCCULTUM.TITLE.POST_ITEM"}}"><i
+                    class="fas fa-comment"></i></a>
+                <a class="item-control item-delete" title="{{localize " LEXOCCULTUM.TITLE.DELETE_ITEM"}}"><i
+                    class="fas fa-trash"></i></a>
+              </td>
+              {{/ifeq}} {{/each}}
+            </tr>
+          </tbody>
+        </table>
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2>{{localize "LEXOCCULTUM.TITLE.OBJECT"}}</h2>
+          </div>
+        </div>
+        <table class="header flex">
+          <thead>
+            <th><b class="image">{{localize "LEXOCCULTUM.GEAR.OBJECT.IMAGE"}}</b></th>
+            <th><b class="name">{{localize "LEXOCCULTUM.GEAR.OBJECT.NAME"}}</b></th>
+            <th><b class="actions">{{localize "LEXOCCULTUM.GEAR.OBJECT.ACTIONS"}}</b></th>
+            <th>
+              <a class="button item-create" title="{{localize " LEXOCCULTUM.TITLE.ADD_OBJECT"}}"
+                data-type="rawMaterial"><i class="fas fa-plus"></i></a>
+            </th>
+          </thead>
+          <tbody>
+            {{#each actor.items as |item|}} {{#ifeq item.type "rawMaterial" }}
+            <tr class="gear item flex" data-item-id="{{item._id}}">
+              <td class="image-container">
+                <div class="image" style="background-image: url('{{item.img}}')"></div>
+              </td>
+              <td class="name">{{item.name}}</td>
+              <td class="button">
+                <a class="item-control item-edit" title="{{localize " LEXOCCULTUM.TITLE.EDIT_ITEM"}}"><i
+                    class="fas fa-edit"></i></a>
+                <a class="item-control item-post" title="{{localize " LEXOCCULTUM.TITLE.POST_ITEM"}}"><i
+                    class="fas fa-comment"></i></a>
+                <a class="item-control item-delete" title="{{localize " LEXOCCULTUM.TITLE.DELETE_ITEM"}}"><i
+                    class="fas fa-trash"></i></a>
+              </td>
+              {{/ifeq}} {{/each}}
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    {{!-- Skills Tab --}}
+    <div class="tab skills" data-group="primary" data-tab="skills">
+      <div class="row mt-2 mb-2">
+        <div class="col-12">
+          <div class="row search">
+            <div class="col-2 text-center">
+              {{localize "LEXOCCULTUM.SEARCH.TITLE"}}
+            </div>
+            <div class="col-8">
+              <input id="search" type="text">
+            </div>
+            <div class="col-2">
+              <a id="resetSearch" class="btn">{{localize "LEXOCCULTUM.SEARCH.RESET"}}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ol class="skills-list">
+        {{#each data.skills as |skill key|}}
+
+        <li class="skill row" data-skill="{{key}}">
+          <div class="skill-label col-4 {{#if (eq skill.isParentSkill " 1")}} parentSkill {{/if}} {{#if (eq
+            skill.isDiscipline "1" )}} discipline {{/if}}" name="data.skills.{{key}}.label">
+            <span>{{label}}</span>
+          </div>
+          <div class="skill-editbox col-4">
+            {{#if (eq skill.hasDescription "0")}}
+            <span><input class="skill-value" type="number" name="data.skills.{{key}}.value" value="{{skill.value}}"
+                data-dtype="Number" /></span>
+            {{/if}}
+            {{#if (eq skill.hasDescription "1")}}
+            <div class="row">
+              <div class="col-6 p-0">
+                <span><input class="skill-value" type="number" name="data.skills.{{key}}.value" value="{{skill.value}}"
+                    data-dtype="Number" /></span>
+              </div>
+              <div class="col-6 p-0">
+                <span><input class="skill-desc" type="text" name="data.skills.{{key}}.description"
+                    value="{{skill.description}}" data-dtype="Text" /></span>
+              </div>
+            </div>
+            {{/if }} {{#if (eq skill.hasDescription "2")}}
+            <span><input class="skill-value" type="number" name="data.skills.{{key}}.value" value="{{skill.value}}"
+                data-dtype="Number" /></span>
+            {{/if }}
+          </div>
+          <div class="col-4">
+            <span>
+              <a class="rollable btn" data-name="data.skills.{{key}}.value"
+                data-skill="data.skills.{{skill.parentSkill}}.value"
+                data-discipline="data.skills.{{skill.discipline}}.value" data-value="{{skill.value}}">
+                ROLL
+              </a></span>
+          </div>
+        </li>
+
+        {{/each}}
+      </ol>
+    </div>
+    {{!-- Spheres Tab --}}
+    <div class="tab spheres" data-group="primary" data-tab="spheres">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>{{localize "LEXOCCULTUM.TITLE.INFOS"}}</h2>
+        </div>
+      </div>
+      <div class="resume">
+        <div class="row">
+          <div class="col-6">
+            <input type="text" name="data.header.social_class.value" value="{{data.header.social_class.value}}"
+              data-dtype="Text" />
+            <span>{{localize "LEXOCCULTUM.MAIN.SOCIALCLASSE"}}</span>
+          </div>
+          <div class="col-6">
+            <input type="text" name="data.header.nationality.value" value="{{data.header.nationality.value}}"
+              data-dtype="Text" />
+            <span>{{localize "LEXOCCULTUM.MAIN.NATINOLITY"}}</span>
+          </div>
+          <div class="col-6">
+            <input type="text" name="data.header.archetype.value" value="{{data.header.archetype.value}}"
+              data-dtype="Text" />
+            <span>{{localize "LEXOCCULTUM.MAIN.ARCHETYPE"}}</span>
+          </div>
+          <div class="col-6">
+            <input type="text" name="data.header.gender.value" value="{{data.header.gender.value}}" data-dtype="Text" />
+            <span>{{localize "LEXOCCULTUM.MAIN.GENDER"}}</span>
+          </div>
+          <div class="col-6">
+            <input type="text" name="data.header.age.value" value="{{data.header.age.value}}" data-dtype="Text" />
+            <span>{{localize "LEXOCCULTUM.MAIN.AGE"}}</span>
+          </div>
+          <div class="col-6">
+            <input type="text" name="data.header.height.value" value="{{data.header.height.value}}" data-dtype="Text" />
+            <span>{{localize "LEXOCCULTUM.MAIN.HEIGHT"}}</span>
+          </div>
+          <div class="col-6">
+            <input type="number" name="data.header.fate.value" value="{{data.header.fate.value}}" data-dtype="Number" />
+            <span>{{localize "LEXOCCULTUM.MAIN.DESTINY"}}</span>
+          </div>
+          <div class="col-6">
+            <input type="text" name="data.header.weight.value" value="{{data.header.weight.value}}" data-dtype="Text" />
+            <span>{{localize "LEXOCCULTUM.MAIN.WEIGHT"}}</span>
+          </div>
+          <div class="col-6">
+            <input type="text" name="data.header.dominant_hand.value" value="{{data.header.dominant_hand.value}}"
+              data-dtype="Text" />
+            <span>{{localize "LEXOCCULTUM.MAIN.DOMINANT_HAND"}}</span>
+          </div>
+          <div class="col-6">
+            <input type="text" name="data.header.first_impression.value" value="{{data.header.first_impression.value}}"
+              data-dtype="Text" />
+            <span>{{localize "LEXOCCULTUM.MAIN.FIRST_IMPRESSION"}}</span>
+          </div>
+          <div class="col-6">
+            <input type="text" name="data.header.ap_available.value" value="{{data.header.ap_available.value}}"
+              data-dtype="Text" />
+            <span>{{localize "LEXOCCULTUM.MAIN.AP_AVAILABLE"}}</span>
+          </div>
+          <div class="col-6">
+            <input type="text" name="data.header.ap_used.value" value="{{data.header.ap_used.value}}"
+              data-dtype="Text" />
+            <span>{{localize "LEXOCCULTUM.MAIN.AP_USED"}}</span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>{{localize "LEXOCCULTUM.TITLE.SPHERES"}}</h2>
+        </div>
+      </div>
+      <div class="row spheres-list">
+        {{#each data.spheres as |sphere key|}}
+        <div class="col-6" data-sphere="{{key}}">
+          <span class="sphere-label flexrow" name="data.sphere.{{key}}.label">{{label}}
+          </span>
+          <div class="sphere-editbox flexrow">
+            <span><input class="sphere-value" type="number" name="data.spheres.{{key}}.value" value="{{sphere.value}}"
+                data-dtype="Number" /></span>
+          </div>
+        </div>
+        {{/each}}
+      </div>
+    </div>
+  </section>
+</form>
