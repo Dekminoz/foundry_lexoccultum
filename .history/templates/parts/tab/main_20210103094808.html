@@ -1,0 +1,54 @@
+<div class="row">
+    <div class="col-12 text-center">
+      <h2>{{localize "LEXOCCULTUM.TITLE.HELPERS"}}</h2>
+    </div>
+  </div>
+  <div class="helpers row mb-2 mt-2">
+    <div class="col-3">
+      <div id="closeCombatPts">0</div>
+      <h3>{{localize "LEXOCCULTUM.HELPERS.CLOSECOMBATPTS"}}</h3>
+    </div>
+    <div class="col-3">
+      <div id="rangedCombatPts">0</div>
+      <h3>{{localize "LEXOCCULTUM.HELPERS.RANGEDCOMBATPTS"}}</h3>
+    </div>
+    <div class="col-3">
+      <div id="weaponPts" data-mi="0" data-mo="0">0</div>
+      <h3>{{localize "LEXOCCULTUM.HELPERS.WEAPONPTS"}}</h3>
+    </div>
+    <div class="col-3">
+      <div id="move">0</div>
+      <h3>{{localize "LEXOCCULTUM.MAIN.MOUVEMENT"}}</h3>
+    </div>
+  </div>
+  <div class="row mb-2 mt-2">
+    <div class="col-12 text-center">
+      <h2>{{localize "LEXOCCULTUM.TITLE.TRAITS"}}</h2>
+    </div>
+  </div>
+  <div class="traits ">
+    <div class="traits-list row">
+      {{#each data.traits as |trait key|}}
+      <div class="trait col-1" data-skill="{{key}}">
+        <div class="trait-editbox">
+          <div>
+            <input class="trait-value" type="number" name="data.traits.{{key}}.value" value="{{trait.value}}"
+              data-dtype="Number" />
+          </div>
+          <div>
+            <a class="btn rollableTrait m-5px" data-name="data.traits.{{key}}.value" data-value="{{trait.value}}">
+              {{label}}
+            </a>
+          </div>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+  <div class="row mb-2 mt-2">
+    <div class="col-12 flexCenter">
+      <span>
+        <a class="btn" id="rollInit"> {{localize "LEXOCCULTUM.ROLL.INITIATIVE"}} </a>
+      </span>
+    </div>
+  </div>

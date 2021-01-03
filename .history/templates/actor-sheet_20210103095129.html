@@ -1,0 +1,70 @@
+<form class="flexcol {{cssClass}}" autocomplete="off">
+  {{!-- Sheet Header --}}
+  <header class="sheet-header">
+    <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="100" width="100" />
+    <div class="header-fields">
+      <h1 class="charname">
+        <input name="name" type="text" value="{{actor.name}}" placeholder="Name" />
+      </h1>
+      <div class="resource">
+        <span class="text-uppercase">{{localize "LEXOCCULTUM.TITLE.HEALTH"}}: </span>
+        <input id="currentHealth" type="text" name="data.health.value" value="{{data.health.value}}"
+          data-dtype="Number" />
+        <span> / </span>
+        <input type="text" name="data.health.max" value="{{data.health.max}}" data-dtype="Number" />
+        <span title="{{localize "LEXOCCULTUM.TITLE.HEALTHDAMAGELEVEL"}}" id="healthDamageLevel">1</span>
+        <span title="{{localize "LEXOCCULTUM.TITLE.HEALTHNATURALHEALING"}}" id="healthNaturalHealing">
+          <input class="headerInput" type="text" name="data.health.natural_healing"
+            value="{{data.health.natural_healing}}" data-dtype="Number" />
+        </span>
+      </div>
+      <div class="resource">
+        <span class="text-uppercase">{{localize "LEXOCCULTUM.TITLE.SANITY"}}: </span>
+        <input id="currentSanity" type="text" name="data.sanity.value" value="{{data.sanity.value}}"
+          data-dtype="Number" />
+        <span> / </span>
+        <input type="text" name="data.sanity.max" value="{{data.sanity.max}}" data-dtype="Number" />
+        <span title="{{localize "LEXOCCULTUM.TITLE.SANITYDAMAGELEVEL"}}" id="sanityDamageLevel">1</span>
+        <span title="{{localize "LEXOCCULTUM.TITLE.SANITYNATURALHEALING"}}" id="sanityNaturalHealing">
+          <input class="headerInput" type="text" name="data.sanity.natural_healing"
+            value="{{data.sanity.natural_healing}}" data-dtype="Number" />
+        </span>
+      </div>
+    </div>
+  </header>
+
+  {{!-- Sheet Tab Navigation --}}
+  <nav class="sheet-tabs tabs" data-group="primary">
+    <a class="item" data-tab="main">{{localize "LEXOCCULTUM.TAB.MAIN"}}</a>
+    <a class="item" data-tab="skills">{{localize "LEXOCCULTUM.TAB.SKILLS"}}</a>
+    <a class="item" data-tab="items">{{localize "LEXOCCULTUM.TAB.ITEMS"}}</a>
+    <a class="item" data-tab="spheres">{{localize "LEXOCCULTUM.TAB.SPHERES"}}</a>
+    <a class="item" data-tab="description">{{localize "LEXOCCULTUM.TAB.BIO"}}</a>
+  </nav>
+
+  {{!-- Sheet Body --}}
+  <section class="sheet-body">
+    {{!-- Main Tab --}}
+    <div class="tab main" data-group="primary" data-tab="main">
+      {{> systems/lexoccultum/model/tab/main.html}}
+    </div>
+    {{!-- Biography Tab --}}
+    <div class="tab biography" data-group="primary" data-tab="description">
+      {{editor content=data.biography target="data.biography" button=true
+      owner=owner editable=editable}}
+    </div>
+
+    {{!-- Owned Items Tab --}}
+    <div class="tab" data-group="primary" data-tab="items">
+
+    </div>
+    {{!-- Skills Tab --}}
+    <div class="tab skills" data-group="primary" data-tab="skills">
+ 
+    </div>
+    {{!-- Spheres Tab --}}
+    <div class="tab spheres" data-group="primary" data-tab="spheres">
+
+    </div>
+  </section>
+</form>

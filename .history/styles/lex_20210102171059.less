@@ -1,0 +1,449 @@
+.lexoccultum {
+  .window-content {
+    height: 100%;
+    padding: 5px;
+    overflow-y: hidden;
+  }
+
+  form {
+    height: 100%;
+  }
+
+  .sheet-header {
+    flex: 0 0 100px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+
+    .profile-img {
+      flex: 0 0 100px;
+      height: 100px;
+      margin-right: 10px;
+    }
+
+    .header-fields {
+      flex: 1;
+      height: 100px;
+    }
+
+    h1.charname {
+      height: 50px;
+      padding: 0px;
+      margin: 5px 0;
+      border-bottom: 0;
+      input {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+      }
+    }
+  }
+
+  .resource {
+    width: 50%;
+    height: 40px;
+    margin-top: 10px;
+    float: left;
+    text-align: center;
+    input {
+      width: 100px;
+      height: 28px;
+    }
+  }
+
+  /* Sheet Tabs */
+  .tabs {
+    flex: 0 0 40px;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+
+    .item {
+      line-height: 40px;
+      font-weight: bold;
+    }
+
+    .item.active {
+      text-decoration: underline;
+      text-shadow: none;
+    }
+  }
+
+  .sheet-body {
+    overflow: hidden;
+    .tab {
+      height: 100%;
+      overflow-y: auto;
+    }
+  }
+
+  .editor,
+  .editor-content {
+    height: 100%;
+  }
+
+  /* Items List */
+  .item-list {
+    list-style: none;
+    margin: 7px 0;
+    padding: 0;
+    overflow-y: auto;
+
+    .item {
+      min-height: 30px;
+      line-height: 24px;
+      padding: 3px 0;
+      border-bottom: 1px solid #bbb;
+      align-items: stretch;
+
+      img {
+        flex: 0 0 24px;
+        margin-right: 5px;
+      }
+    }
+
+    .item-name {
+      margin: 0;
+    }
+
+    .item-controls {
+      flex: 0 0 36px;
+    }
+
+    .item-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: center;
+      flex: 2;
+      justify-content: flex-start;
+    }
+
+    .item-button {
+      line-height: 1;
+      font-size: 11px;
+      flex: none;
+      width: auto;
+    }
+  }
+
+  /* Items */
+  .items {
+    position: relative;
+
+    .item-control,
+    .group-control {
+      flex: 0 0 20px;
+      text-align: center;
+      line-height: 28px;
+      border: none;
+    }
+
+    .item-roll {
+      flex: 0 0 20px;
+      text-align: center;
+      border-bottom: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .group-prefix {
+      height: 31px;
+      margin-right: 10px;
+    }
+
+    .button {
+      width: 100%;
+      flex: 1;
+      margin: 0;
+      background: rgba(0, 0, 0, 0.1);
+      border: 2px groove #f0f0e0;
+      border-radius: 3px;
+      font-size: 14px;
+      line-height: 28px;
+      display: block;
+    }
+
+    .item-key {
+      background: transparent;
+      border: none;
+    }
+  }
+
+  .items-header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    align-items: center;
+    padding: 0 5px;
+    margin: 5px 0;
+    background: #cfcdc2;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .items-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li > * {
+      margin: 0 3px;
+      height: 28px;
+      line-height: 24px;
+      background: transparent;
+      border: none;
+      border-radius: 0;
+      border-bottom: 1px solid #aaa;
+    }
+
+    .item-col {
+      label {
+        font-size: 10px;
+        text-align: center;
+        line-height: 1;
+      }
+
+      input {
+        font-size: 11px;
+        text-align: center;
+        line-height: 1;
+        height: 50%;
+      }
+    }
+  }
+
+  .item,
+  .group-header {
+    input[type="text"] {
+      &::placeholder {
+        opacity: 0;
+        transition: opacity 0.25s ease-in-out;
+      }
+
+      &:focus::placeholder {
+        opacity: 1;
+      }
+    }
+  }
+
+  .group-controls {
+    margin: 5px;
+  }
+
+  .groups-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .group {
+    margin: 5px 0 0;
+    padding: 0;
+  }
+
+  .group-header {
+    align-items: center;
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    padding: 2px 5px;
+  }
+
+  .group-key,
+  .group-label {
+    font-weight: bold;
+    border: none;
+    border-bottom: 1px solid #aaa;
+    background: transparent;
+    border-radius: 0;
+    margin-right: 6px;
+  }
+
+  .group-key {
+    opacity: 0.75;
+  }
+
+  .group-label {
+    flex: 2;
+  }
+
+  .group-dtype {
+    height: 24px;
+    flex: 0 0 116px;
+    margin: 0 5px;
+  }
+}
+
+.lexoccultum.sheet.actor {
+  min-width: 560px;
+  min-height: 420px;
+}
+
+.lexoccultum.sheet.item {
+  min-width: 460px;
+  min-height: 400px;
+}
+/** CUSTOM **/
+#healthDamageLevel,
+#sanityDamageLevel {
+  text-align: center;
+  border: 4px #243636;
+  border-radius: 100%;
+  padding: 3px 7px;
+  margin: 0 auto;
+  margin-left: 20px;
+  border-style: double;
+}
+#sanityNaturalHealing,
+#healthNaturalHealing {
+  text-align: center;
+  border: 4px #243636;
+  border-radius: 100%;
+  padding: 3px 0px;
+  margin: 0 auto;
+  margin-left: 20px;
+  border-style: double;
+}
+.headerInput {
+  border: none!important;
+  width: 20px!important;
+  height: auto!important;
+  background: none!important;
+}
+.helpers {
+  #closeCombatPts,
+  #rangedCombatPts,
+  #weaponPts,
+  #move {
+    text-align: center;
+    border: 4px #243636;
+    border-radius: 100%;
+    padding: 13px 0px;
+    max-width: 30%;
+    margin: 0 auto;
+    border-style: ridge;
+    font-size: 25px;
+  }
+  h3 {
+    text-align: center;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+  }
+}
+h2 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid #243636;
+}
+.resume {
+  .col-6 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+}
+.sheet-body {
+  padding: 15px;
+}
+.btn {
+  background-color: #36434c;
+  color: white;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+}
+.trait-value {
+  text-align: center !important;
+  padding: 1rem !important;
+}
+.traits-list,
+.helpers {
+  .j-center;
+}
+.skill {
+  margin-bottom: 0.3rem;
+}
+.skill-label {
+  span {
+    padding-left: 2rem;
+  }
+}
+.parentSkill {
+  span {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    padding-left: 0rem !important;
+  }
+}
+.discipline {
+  span {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    padding-left: 1rem !important;
+  }
+}
+.search {
+  .col-2,
+  .col-8 {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+.item-create {
+  width: 50%;
+  margin: 0 auto;
+}
+table thead {
+  background: #36434c;
+  text-transform: uppercase;
+}
+.imageContainerItem{
+  te
+}
+.itemImg{
+  max-width: 50px;
+}
+/*HELPERS*/
+.m-5px {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.mb-2 {
+  margin-bottom: 2rem;
+}
+.mt-2 {
+  margin-top: 2rem;
+}
+.text-center {
+  text-align: center;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.j-center {
+  justify-content: center;
+}
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.flexCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.p-0 {
+  padding: 0px;
+}

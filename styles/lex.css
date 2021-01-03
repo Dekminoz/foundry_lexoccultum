@@ -244,6 +244,32 @@
   min-height: 400px;
 }
 /** CUSTOM **/
+#healthDamageLevel,
+#sanityDamageLevel {
+  text-align: center;
+  border: 4px #243636;
+  border-radius: 100%;
+  padding: 3px 7px;
+  margin: 0 auto;
+  margin-left: 20px;
+  border-style: double;
+}
+#sanityNaturalHealing,
+#healthNaturalHealing {
+  text-align: center;
+  border: 4px #243636;
+  border-radius: 100%;
+  padding: 3px 0px;
+  margin: 0 auto;
+  margin-left: 20px;
+  border-style: double;
+}
+.headerInput {
+  border: none!important;
+  width: 20px!important;
+  height: auto!important;
+  background: none!important;
+}
 .helpers #closeCombatPts,
 .helpers #rangedCombatPts,
 .helpers #weaponPts,
@@ -251,14 +277,16 @@
   text-align: center;
   border: 4px #243636;
   border-radius: 100%;
-  padding: 20px 0px;
+  padding: 13px 0px;
   max-width: 30%;
   margin: 0 auto;
   border-style: ridge;
+  font-size: 25px;
 }
 .helpers h3 {
   text-align: center;
   margin-top: 0.5rem;
+  text-transform: uppercase;
 }
 h2 {
   margin-bottom: 1rem;
@@ -323,6 +351,26 @@ table thead {
   background: #36434c;
   text-transform: uppercase;
 }
+table td,
+table th {
+  text-align: center;
+  border-left: solid 1px #243636;
+  border-right: solid 1px #243636;
+  border-bottom: solid 1px #243636;
+}
+.imageContainerItem {
+  text-align: center;
+}
+.itemImg {
+  max-width: 50px;
+  border: none;
+}
+.gear td {
+  text-align: center;
+}
+.items .item-control {
+  padding: 5px;
+}
 /*HELPERS*/
 .m-5px {
   margin-top: 5px;
@@ -336,6 +384,9 @@ table thead {
 }
 .text-center {
   text-align: center;
+}
+.text-uppercase {
+  text-transform: uppercase;
 }
 .j-center {
   justify-content: center;

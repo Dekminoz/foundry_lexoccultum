@@ -1,0 +1,57 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <div class="header">
+        <div class="avatar">
+            <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}" />
+        </div>
+        <div class="name">
+            <label>{{localize "LEXOCCULTUM.GEAR.NAME"}}</label>
+            <input name="name" type="text" value="{{item.name}}" />
+        </div>
+    </div>
+    <div class="item">
+        <div class="col-6">
+            <label>{{localize "LEXOCCULTUM.GEAR.WEAPON.DG"}}</label>
+            <input name="data.dg" type="text" value="{{data.dg}}" />
+        </div>
+        <div class="col-6">
+            <label>{{localize "LEXOCCULTUM.GEAR.WEAPON.PT"}}</label>
+            <input name="data.pt" type="text" value="{{data.pt}}" />
+        </div>
+        <div class="col-6">
+            <label>{{localize "LEXOCCULTUM.GEAR.WEAPON.PA"}}</label>
+            <input name="data.pa" type="text" value="{{data.pa}}" />
+        </div>
+        <div class="mi">
+            <label>{{localize "LEXOCCULTUM.GEAR.WEAPON.IM"}}</label>
+            <input name="data.im" type="text" value="{{data.im}}" />
+        </div>
+        <div class="quality">
+            <label>{{localize "LEXOCCULTUM.GEAR.WEAPON.QUALITY"}}</label>
+            <input name="data.quality" type="text" value="{{data.quality}}" />
+        </div>
+        <div class="it">
+            <label>{{localize "LEXOCCULTUM.GEAR.WEAPON.IT"}}</label>
+            <input name="data.it" type="text" value="{{data.it}}" />
+        </div>
+        <div class="mo">
+            <label>{{localize "LEXOCCULTUM.GEAR.WEAPON.OM"}}</label>
+            <input name="data.om" type="number" value="{{data.om}}" />
+        </div>
+        <div class="weight">
+            <label>{{localize "LEXOCCULTUM.GEAR.WEAPON.WEIGHT"}}</label>
+            <input name="data.weight" type="text" value="{{data.weight}}" />
+        </div>
+        <div class="shortRange">
+            <label>{{localize "LEXOCCULTUM.GEAR.WEAPON.SHORTRANGE"}}</label>
+            <input name="data.shortRange" type="text" value="{{data.shortRange}}" />
+        </div>
+        <div class="longRange">
+            <label>{{localize "LEXOCCULTUM.GEAR.WEAPON.LONGRANGE"}}</label>
+            <input name="data.longRange" type="text" value="{{data.longRange}}" />
+        </div>
+        <div class="cost">
+            <label>{{localize "LEXOCCULTUM.GEAR.WEAPON.COST"}}</label>
+            <input name="data.cost" type="text" value="{{data.cost}}" />
+        </div>
+    </div>
+</form>

@@ -1,0 +1,89 @@
+<div class="row">
+    <div class="col-6">
+      <div class="row mb-2">
+        <div class="col-12 text-center">
+          <h2>{{localize "LEXOCCULTUM.TITLE.INFOS"}}</h2>
+        </div>
+      </div>
+      <div class="row resume">
+        <div class="col-6">
+          <input type="text" name="data.header.social_class.value" value="{{data.header.social_class.value}}"
+            data-dtype="Text" />
+          <span>{{localize "LEXOCCULTUM.MAIN.SOCIALCLASSE"}}</span>
+        </div>
+        <div class="col-6">
+          <input type="text" name="data.header.nationality.value" value="{{data.header.nationality.value}}"
+            data-dtype="Text" />
+          <span>{{localize "LEXOCCULTUM.MAIN.NATINOLITY"}}</span>
+        </div>
+        <div class="col-6">
+          <input type="text" name="data.header.archetype.value" value="{{data.header.archetype.value}}"
+            data-dtype="Text" />
+          <span>{{localize "LEXOCCULTUM.MAIN.ARCHETYPE"}}</span>
+        </div>
+        <div class="col-6">
+          <input type="text" name="data.header.gender.value" value="{{data.header.gender.value}}"
+            data-dtype="Text" />
+          <span>{{localize "LEXOCCULTUM.MAIN.GENDER"}}</span>
+        </div>
+        <div class="col-6">
+          <input type="text" name="data.header.age.value" value="{{data.header.age.value}}" data-dtype="Text" />
+          <span>{{localize "LEXOCCULTUM.MAIN.AGE"}}</span>
+        </div>
+        <div class="col-6">
+          <input type="text" name="data.header.height.value" value="{{data.header.height.value}}"
+            data-dtype="Text" />
+          <span>{{localize "LEXOCCULTUM.MAIN.HEIGHT"}}</span>
+        </div>
+        <div class="col-6">
+          <input type="number" name="data.header.fate.value" value="{{data.header.fate.value}}"
+            data-dtype="Number" />
+          <span>{{localize "LEXOCCULTUM.MAIN.DESTINY"}}</span>
+        </div>
+        <div class="col-6">
+          <input type="text" name="data.header.weight.value" value="{{data.header.weight.value}}"
+            data-dtype="Text" />
+          <span>{{localize "LEXOCCULTUM.MAIN.WEIGHT"}}</span>
+        </div>
+        <div class="col-6">
+          <input type="text" name="data.header.dominant_hand.value" value="{{data.header.dominant_hand.value}}"
+            data-dtype="Text" />
+          <span>{{localize "LEXOCCULTUM.MAIN.DOMINANT_HAND"}}</span>
+        </div>
+        <div class="col-6">
+          <input type="text" name="data.header.first_impression.value"
+            value="{{data.header.first_impression.value}}" data-dtype="Text" />
+          <span>{{localize "LEXOCCULTUM.MAIN.FIRST_IMPRESSION"}}</span>
+        </div>
+        <div class="col-6">
+          <input type="text" name="data.header.ap_available.value" value="{{data.header.ap_available.value}}"
+            data-dtype="Text" />
+          <span>{{localize "LEXOCCULTUM.MAIN.AP_AVAILABLE"}}</span>
+        </div>
+        <div class="col-6">
+          <input type="text" name="data.header.ap_used.value" value="{{data.header.ap_used.value}}"
+            data-dtype="Text" />
+          <span>{{localize "LEXOCCULTUM.MAIN.AP_USED"}}</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="row mb-2">
+        <div class="col-12 text-center">
+          <h2>{{localize "LEXOCCULTUM.TITLE.SPHERES"}}</h2>
+        </div>
+      </div>
+      <div class="row spheres-list">
+        {{#each data.spheres as |sphere key|}}
+        <div class="col-6" data-sphere="{{key}}">
+          <span class="sphere-label flexrow" name="data.sphere.{{key}}.label">{{label}}
+          </span>
+          <div class="sphere-editbox flexrow">
+            <span><input class="sphere-value" type="number" name="data.spheres.{{key}}.value"
+                value="{{sphere.value}}" data-dtype="Number" /></span>
+          </div>
+        </div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
