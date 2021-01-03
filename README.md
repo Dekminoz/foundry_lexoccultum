@@ -46,5 +46,5 @@ This is not the game, this is just a game system for foundry VTT , you can pursh
 
 - Foundry VTT support is covered by the following license: [Limited License Agreement for module development 09/02/2020](https://foundryvtt.com/article/license/).
 
-[foundry-shield-078]: https://img.shields.io/badge/Foundry-v0.7.9-informational
+[foundry-shield-079]: https://img.shields.io/badge/Foundry-v0.7.9-informational
 [foundry-url]: https://foundryvtt.com/
