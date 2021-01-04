@@ -1,0 +1,10 @@
+Version 1.0
+
+First release for my lexOccultum system. Enjoy It and don't hesitate to let me know if you have issues with it.
+
+In it you can find all the things you have in the official character sheet with useful helpers like:
+
+    Search engine for skills
+    Roll by simple click on your skill/trait
+    Automatic Damage level
+    And More.
