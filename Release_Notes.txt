@@ -8,3 +8,7 @@ In it you can find all the things you have in the official character sheet with 
     Roll by simple click on your skill/trait
     Automatic Damage level
     And More.
+
+Version 1.0.1
+
+    Fix css with with parentSkill.
