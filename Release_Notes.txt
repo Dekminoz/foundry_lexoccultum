@@ -12,3 +12,8 @@ In it you can find all the things you have in the official character sheet with 
 Version 1.0.1
 
     Fix css with with parentSkill.
+
+Version 1.1.0
+
+    Add translation for skills in french
+    Fix San -> Hea

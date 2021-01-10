@@ -99,5 +99,12 @@
   "LEXOCCULTUM.SEARCH.TITLE":"Search: ",
   "LEXOCCULTUM.SEARCH.RESET":"Reset",
   "LEXOCCULTUM.CHAT.SUCCESS": "Success",
-  "LEXOCCULTUM.CHAT.FAIL": "Failure"
+  "LEXOCCULTUM.CHAT.FAIL": "Failure",
+  "CHA": "CHA",
+  "Con": "Con",
+  "Dex": "Dex",
+  "Spy": "Spy",
+  "Int": "Int",
+  "Per": "Per",
+  "Hea": "Hea"
 }

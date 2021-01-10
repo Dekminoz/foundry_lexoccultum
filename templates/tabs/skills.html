@@ -18,7 +18,7 @@
     <li class="skill row" data-skill="{{key}}">
       <div class="skill-label col-4 {{#if (eq skill.isParentSkill "1")}} parentSkill {{/if}} {{#if (eq
         skill.isDiscipline "1" )}} discipline {{/if}}" name="data.skills.{{key}}.label">
-        <span>{{label}}</span>
+        <span>{{localize label}}</span>
       </div>
       <div class="skill-editbox col-4">
         {{#if (eq skill.hasDescription "0")}}

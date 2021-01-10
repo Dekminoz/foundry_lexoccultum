@@ -138,9 +138,9 @@
                     "label": "Dex",
                     "modifier": []
                 },
-                "spirit": {
+                "spychic": {
                     "value": 0,
-                    "label": "Spi",
+                    "label": "Spy",
                     "modifier": []
                 },
                 "inteligence": {
@@ -153,9 +153,9 @@
                     "label": "Per",
                     "modifier": []
                 },
-                "sanity": {
+                "health": {
                     "value": 0,
-                    "label": "San",
+                    "label": "Hea",
                     "modifier": []
                 }
             },
