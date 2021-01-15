@@ -6,6 +6,7 @@
 
 // Import Modules
 import { Character } from "./actor.js";
+import { LexItemSheet } from "./item-sheet.js";
 import { CharacterSheet } from "./actor-sheet.js";
 import { preloadHandlebarsTemplates } from "./templates.js";
 import { createLexOccultumMacro } from "./macro.js";
@@ -41,6 +42,8 @@ Hooks.once("init", async function () {
   // Register sheet application classes
   Actors.unregisterSheet("core", ActorSheet);
   Actors.registerSheet("lexoccultum", CharacterSheet, { makeDefault: true });
+  Items.unregisterSheet("core", LexItemSheet);
+  Items.registerSheet("lexoccultum", LexItemSheet, { makeDefault: true });
 
   // Register system settings
   game.settings.register("lexoccultum", "macroShorthand", {
