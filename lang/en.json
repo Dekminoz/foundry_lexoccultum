@@ -109,5 +109,13 @@
   "Spy": "Spy",
   "Int": "Int",
   "Per": "Per",
-  "Hea": "Hea"
+  "Hea": "Hea",
+  "Adminstrative": "Adminstrative",
+  "Trading": "Trading",
+  "Scientific": "Scientific",
+  "Occult": "Occult",
+  "Military": "Military",
+  "Lawless": "Lawless",
+  "Holy": "Holy",
+  "Art": "Entertainment"
 }

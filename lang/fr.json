@@ -253,5 +253,13 @@
     "Brawling": "Bagarre",
     "Wrestling": "Lutte",
     "Other Specialties": "Autres spécialités",
-    "Other Knowledges": "Autres connaissances"
+    "Other Knowledges": "Autres connaissances",
+    "Adminstrative": "Adminstrative",
+    "Trading": "Commerciale",
+    "Scientific": "Scientifique",
+    "Occult": "Occulte",
+    "Military": "Militaire",
+    "Lawless": "Criminelle",
+    "Holy": "Religieuse",
+    "Art": "Artistique"
 }

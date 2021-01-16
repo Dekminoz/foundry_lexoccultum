@@ -76,7 +76,7 @@
       <div class="row spheres-list">
         {{#each data.spheres as |sphere key|}}
         <div class="col-6" data-sphere="{{key}}">
-          <span class="sphere-label flexrow" name="data.sphere.{{key}}.label">{{label}}
+          <span class="sphere-label flexrow" name="data.sphere.{{key}}.label">{{localize label}}
           </span>
           <div class="sphere-editbox flexrow">
             <span><input class="sphere-value" type="number" name="data.spheres.{{key}}.value"
