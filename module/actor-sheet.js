@@ -116,6 +116,10 @@ export class CharacterSheet extends ActorSheet {
   onWeaponActivate(event) {
     let check = $(event.currentTarget);
     let pa = check.data("pa");
+    let im = check.data("im");
+    let om = check.data("om");
+    $("#weaponPts").data("im",im);
+    $("#weaponPts").data("om",om);
     localStorage.setItem("weaponPa", pa);
     this.calcultateCp();
   }
