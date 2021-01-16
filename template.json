@@ -10,13 +10,13 @@
                 "value": 32,
                 "min": 0,
                 "max": 32,
-                "natural_healing":0
+                "natural_healing": 0
             },
             "sanity": {
                 "value": 32,
                 "min": 0,
                 "max": 32,
-                "natural_healing":0
+                "natural_healing": 0
             },
             "header": {
                 "name": {
@@ -2168,10 +2168,16 @@
     },
     "Item": {
         "types": [
+            "item",
             "weapon",
             "armor",
             "rawMaterial"
         ],
+        "item": {
+            "description": "",
+            "quantity": 1,
+            "weight": 0
+        },
         "weapon": {
             "cost": 0,
             "dg": "1D10 (10)",
