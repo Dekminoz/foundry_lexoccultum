@@ -267,7 +267,7 @@ export class CharacterSheet extends ActorSheet {
     );
     let combatReaction = Number(
       $('input[name="data.skills.combat_reaction.value"]').val()
-    );
+    )*2;
     let weaponIm = Number($("#weaponPts").data("im"));
     let weaponOm = Number($("#weaponPts").data("om"));
     let formula =
@@ -292,8 +292,11 @@ export class CharacterSheet extends ActorSheet {
   }
   /* Initialise Combat Point */
   calcultateCp() {
+    let combatBase = Number(
+      $('input[name="data.skills.fighting.value"]').val()
+    );
     let combatAction = Number(
-      $('input[name="data.skills.combat_actions.value"]').val()
+      $('input[name="data.skills.battle_exp.value"]').val()
     );
     let ccAction = Number(
       $('input[name="data.skills.cc_weapons.value"]').val()
@@ -308,8 +311,8 @@ export class CharacterSheet extends ActorSheet {
       Number($('input[name="data.skills.body_control.value"]').val()) +
       Number($('input[name="data.traits.dexterity.value"]').val()) -
       armorPoints;
-    $("#closeCombatPts").html(combatAction + ccAction);
-    $("#rangedCombatPts").html(combatAction + rangedAction);
+    $("#closeCombatPts").html(combatBase + combatAction + ccAction);
+    $("#rangedCombatPts").html(combatBase + combatAction + rangedAction);
     $("#move").html(move);
     $("#weaponPts").html(weaponPoints);
   }
