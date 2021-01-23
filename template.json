@@ -9,13 +9,13 @@
             "health": {
                 "value": 32,
                 "min": 0,
-                "max": 32,
+                "max": 40,
                 "natural_healing": 0
             },
             "sanity": {
                 "value": 32,
                 "min": 0,
-                "max": 32,
+                "max": 40,
                 "natural_healing": 0
             },
             "header": {
@@ -78,6 +78,10 @@
                 "first_impression": {
                     "value": "",
                     "label": "First Impression"
+                },
+                "pers_in_the_wild": {
+                    "value": "",
+                    "label": "Pers in the wild"
                 },
                 "move": {
                     "value": "",
@@ -297,7 +301,7 @@
                     "label": "Animal Handling",
                     "modifier": [],
                     "isParentSkill": "0",
-                    "isDiscipline": "0",
+                    "isDiscipline": "1",
                     "parentSkill": "professions",
                     "discipline": "",
                     "description": "",
@@ -352,7 +356,7 @@
                     "label": "Crafting",
                     "modifier": [],
                     "isParentSkill": "0",
-                    "isDiscipline": "0",
+                    "isDiscipline": "1",
                     "parentSkill": "professions",
                     "discipline": "",
                     "description": "",
@@ -407,7 +411,7 @@
                     "label": "Hunt And Fish",
                     "modifier": [],
                     "isParentSkill": "0",
-                    "isDiscipline": "0",
+                    "isDiscipline": "1",
                     "parentSkill": "professions",
                     "discipline": "",
                     "description": "",

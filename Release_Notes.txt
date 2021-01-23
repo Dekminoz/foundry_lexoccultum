@@ -17,3 +17,9 @@ Version 1.1.0
 
     Add translation for skills in french
     Fix San -> Hea
+
+Version 1.1.6
+
+    Fix translation issue
+    Fix max Health
+    Add Pers in the wild
