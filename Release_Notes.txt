@@ -27,3 +27,7 @@ Version 1.1.6
 Version 1.1.7
 
     Fix missing SP for weapon
+
+Version 1.1.8
+
+    Fix wrong translation key usage
