@@ -23,3 +23,7 @@ Version 1.1.6
     Fix translation issue
     Fix max Health
     Add Pers in the wild
+
+Version 1.1.7
+
+    Fix missing SP for weapon
