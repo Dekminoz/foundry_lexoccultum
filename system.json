@@ -2,7 +2,7 @@
     "name": "lexoccultum",
     "title": "Lex Occultum",
     "description": "LexOccultum Game system available in English and French",
-    "version": "1.1.8",
+    "version": "1.1.9",
     "minimumCoreVersion": "0.7.9",
     "compatibleCoreVersion": "0.7.9",
     "templateVersion": 2,
@@ -13,11 +13,10 @@
     "styles": [
         "styles/bootstrap-grid.css",
         "styles/lex.css"
-        
+
     ],
     "packs": [],
-    "languages": [
-        {
+    "languages": [{
             "lang": "fr",
             "name": "Français",
             "path": "lang/fr.json"

@@ -31,3 +31,7 @@ Version 1.1.7
 Version 1.1.8
 
     Fix wrong translation key usage
+
+Version 1.1.9
+
+    Fix wrong translation key for weapon
