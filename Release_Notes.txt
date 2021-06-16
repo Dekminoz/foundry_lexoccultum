@@ -35,3 +35,7 @@ Version 1.1.8
 Version 1.1.9
 
     Fix wrong translation key for weapon
+
+Version 1.2
+
+    Add foundry 0.8.6+ support
