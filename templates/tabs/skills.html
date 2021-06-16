@@ -1,54 +1,51 @@
 <div class="row mt-2 mb-2">
     <div class="col-12">
-      <div class="row search">
-        <div class="col-2 text-center">
-          {{localize "LEXOCCULTUM.SEARCH.TITLE"}}
+        <div class="row search">
+            <div class="col-2 text-center">
+                {{localize "LEXOCCULTUM.SEARCH.TITLE"}}
+            </div>
+            <div class="col-8">
+                <input id="search" type="text">
+            </div>
+            <div class="col-2">
+                <a id="resetSearch" class="btn">{{localize "LEXOCCULTUM.SEARCH.RESET"}}</a>
+            </div>
         </div>
-        <div class="col-8">
-          <input id="search" type="text">
-        </div>
-        <div class="col-2">
-          <a id="resetSearch" class="btn">{{localize "LEXOCCULTUM.SEARCH.RESET"}}</a>
-        </div>
-      </div>
     </div>
-  </div>
-  <ol class="skills-list">
-    {{#each data.skills as |skill key|}}
+</div>
+<ol class="skills-list">
+    {{#each data.data.skills as |skill key|}}
     <li class="skill row" data-skill="{{key}}">
-      <div class="skill-label col-4 {{#if (eq skill.isParentSkill "1")}} parentSkill {{/if}} {{#if (eq
-        skill.isDiscipline "1" )}} discipline {{/if}}" name="data.skills.{{key}}.label">
-        <span>{{localize label}}</span>
-      </div>
-      <div class="skill-editbox col-4">
-        {{#if (eq skill.hasDescription "0")}}
-        <span><input class="skill-value" type="number" name="data.skills.{{key}}.value" value="{{skill.value}}"
-            data-dtype="Number" /></span>
-        {{/if}}
-        {{#if (eq skill.hasDescription "1")}}
-        <div class="row">
-          <div class="col-6 p-0">
-            <span><input class="skill-value" type="number" name="data.skills.{{key}}.value" value="{{skill.value}}"
-                data-dtype="Number" /></span>
-          </div>
-          <div class="col-6 p-0">
-            <span><input class="skill-desc" type="text" name="data.skills.{{key}}.description"
-                value="{{skill.description}}" data-dtype="Text" /></span>
-          </div>
+        <div class="skill-label col-4 {{#if (eq skill.isParentSkill " 1 ")}} parentSkill {{/if}} {{#if (eq
+        skill.isDiscipline "1 " )}} discipline {{/if}}" name="data.skills.{{key}}.label">
+            <span>{{localize label}}</span>
         </div>
-        {{/if }} {{#if (eq skill.hasDescription "2")}}
-        <span><input class="skill-value" type="number" name="data.skills.{{key}}.value" value="{{skill.value}}"
-            data-dtype="Number" /></span>
-        {{/if }}
-      </div>
-      <div class="col-4">
-        <span>
+        <div class="skill-editbox col-4">
+            {{#if (eq skill.hasDescription "0")}}
+            <span><input class="skill-value" type="number" name="data.skills.{{key}}.value" value="{{skill.value}}"
+            data-dtype="Number" /></span> {{/if}} {{#if (eq skill.hasDescription "1")}}
+            <div class="row">
+                <div class="col-6 p-0">
+                    <span><input class="skill-value" type="number" name="data.skills.{{key}}.value" value="{{skill.value}}"
+                data-dtype="Number" /></span>
+                </div>
+                <div class="col-6 p-0">
+                    <span><input class="skill-desc" type="text" name="data.skills.{{key}}.description"
+                value="{{skill.description}}" data-dtype="Text" /></span>
+                </div>
+            </div>
+            {{/if }} {{#if (eq skill.hasDescription "2")}}
+            <span><input class="skill-value" type="number" name="data.skills.{{key}}.value" value="{{skill.value}}"
+            data-dtype="Number" /></span> {{/if }}
+        </div>
+        <div class="col-4">
+            <span>
           <a class="rollable btn" data-name="data.skills.{{key}}.value"
             data-skill="data.skills.{{skill.parentSkill}}.value"
             data-discipline="data.skills.{{skill.discipline}}.value" data-value="{{skill.value}}">
             {{localize "LEXOCCULTUM.ROLL.SKILL"}}
           </a></span>
-      </div>
+        </div>
     </li>
     {{/each}}
-  </ol>
+</ol>

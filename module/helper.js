@@ -196,7 +196,7 @@ export class EntitySheetHelper {
             // Replace `@item` shorthand with the item name and make the roll.
             let r = new Roll(formula, rollData);
             r.roll().toMessage({
-                user: game.user._id,
+                user: game.user.id,
                 speaker: ChatMessage.getSpeaker({ actor: this.actor }),
                 flavor: `${chatLabel}`
             });
