@@ -269,12 +269,12 @@ export class CharacterSheet extends ActorSheet {
          * @private
          */
     _onRollInitiative(event) {
-            let charisma = Number($('input[name="data.traits.charisma.value"]').val());
+            let charisma = Number($('input[name="data.data.traits.charisma.value"]').val());
             let combatExperience = Number(
-                $('input[name="data.skills.battle_exp.value"]').val()
+                $('input[name="data.data.skills.battle_exp.value"]').val()
             );
             let combatReaction = Number(
-                $('input[name="data.skills.combat_reaction.value"]').val()
+                $('input[name="data.data.skills.combat_reaction.value"]').val()
             ) * 2;
             let weaponIm = Number($("#weaponPts").data("im"));
             let weaponOm = Number($("#weaponPts").data("om"));
@@ -301,23 +301,23 @@ export class CharacterSheet extends ActorSheet {
         /* Initialise Combat Point */
     calcultateCp() {
         let combatBase = Number(
-            $('input[name="data.skills.fighting.value"]').val()
+            $('input[name="data.data.skills.fighting.value"]').val()
         );
         let combatAction = Number(
-            $('input[name="data.skills.battle_exp.value"]').val()
+            $('input[name="data.data.skills.battle_exp.value"]').val()
         );
         let ccAction = Number(
-            $('input[name="data.skills.cc_weapons.value"]').val()
+            $('input[name="data.data.skills.cc_weapons.value"]').val()
         );
         let rangedAction = Number(
-            $('input[name="data.skills.ranged_weapons.value"]').val()
+            $('input[name="data.data.skills.ranged_weapons.value"]').val()
         );
         let weaponPoints = Number(localStorage.getItem("weaponPt"));
         let armorPoints = Number(localStorage.getItem("armorMM"));
         let move =
             10 +
-            Number($('input[name="data.skills.body_control.value"]').val()) +
-            Number($('input[name="data.traits.dexterity.value"]').val()) -
+            Number($('input[name="data.data.skills.body_control.value"]').val()) +
+            Number($('input[name="data.data.traits.dexterity.value"]').val()) -
             armorPoints;
         $("#closeCombatPts").html(combatBase + combatAction + ccAction);
         $("#rangedCombatPts").html(combatBase + combatAction + rangedAction);
