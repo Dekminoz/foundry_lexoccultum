@@ -17,32 +17,32 @@
     {{#each data.data.skills as |skill key|}}
     <li class="skill row" data-skill="{{key}}">
         <div class="skill-label col-4 {{#if (eq skill.isParentSkill " 1 ")}} parentSkill {{/if}} {{#if (eq
-        skill.isDiscipline "1 " )}} discipline {{/if}}" name="data.skills.{{key}}.label">
+        skill.isDiscipline "1 " )}} discipline {{/if}}" name="data.data.skills.{{key}}.label">
             <span>{{localize label}}</span>
         </div>
         <div class="skill-editbox col-4">
             {{#if (eq skill.hasDescription "0")}}
-            <span><input class="skill-value" type="number" name="data.skills.{{key}}.value" value="{{skill.value}}"
+            <span><input class="skill-value" type="number" name="data.data.skills.{{key}}.value" value="{{skill.value}}"
             data-dtype="Number" /></span> {{/if}} {{#if (eq skill.hasDescription "1")}}
             <div class="row">
                 <div class="col-6 p-0">
-                    <span><input class="skill-value" type="number" name="data.skills.{{key}}.value" value="{{skill.value}}"
+                    <span><input class="skill-value" type="number" name="data.data.skills.{{key}}.value" value="{{skill.value}}"
                 data-dtype="Number" /></span>
                 </div>
                 <div class="col-6 p-0">
-                    <span><input class="skill-desc" type="text" name="data.skills.{{key}}.description"
+                    <span><input class="skill-desc" type="text" name="data.data.skills.{{key}}.description"
                 value="{{skill.description}}" data-dtype="Text" /></span>
                 </div>
             </div>
             {{/if }} {{#if (eq skill.hasDescription "2")}}
-            <span><input class="skill-value" type="number" name="data.skills.{{key}}.value" value="{{skill.value}}"
+            <span><input class="skill-value" type="number" name="data.data.skills.{{key}}.value" value="{{skill.value}}"
             data-dtype="Number" /></span> {{/if }}
         </div>
         <div class="col-4">
             <span>
-          <a class="rollable btn" data-name="data.skills.{{key}}.value"
-            data-skill="data.skills.{{skill.parentSkill}}.value"
-            data-discipline="data.skills.{{skill.discipline}}.value" data-value="{{skill.value}}">
+          <a class="rollable btn" data-name="data.data.skills.{{key}}.value"
+            data-skill="data.data.skills.{{skill.parentSkill}}.value"
+            data-discipline="data.data.skills.{{skill.discipline}}.value" data-value="{{skill.value}}">
             {{localize "LEXOCCULTUM.ROLL.SKILL"}}
           </a></span>
         </div>

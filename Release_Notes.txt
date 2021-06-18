@@ -39,3 +39,7 @@ Version 1.1.9
 Version 1.2
 
     Add foundry 0.8.6+ support
+
+Version 1.2
+
+    FIX SKills display
