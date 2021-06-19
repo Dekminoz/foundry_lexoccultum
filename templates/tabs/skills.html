@@ -16,8 +16,8 @@
 <ol class="skills-list">
     {{#each data.data.skills as |skill key|}}
     <li class="skill row" data-skill="{{key}}">
-        <div class="skill-label col-4 {{#if (eq skill.isParentSkill " 1 ")}} parentSkill {{/if}} {{#if (eq
-        skill.isDiscipline "1 " )}} discipline {{/if}}" name="data.data.skills.{{key}}.label">
+        <div class="skill-label col-4 {{#if (eq skill.isParentSkill '1')}} parentSkill {{/if}} {{#if (eq
+        skill.isDiscipline '1' )}} discipline {{/if}}" name="data.data.skills.{{key}}.label">
             <span>{{localize label}}</span>
         </div>
         <div class="skill-editbox col-4">
