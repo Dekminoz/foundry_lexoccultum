@@ -115,6 +115,9 @@ Hooks.once("init", async function() {
         }
         return options.inverse(this);
     });
+    Handlebars.registerHelper("setVar", function(varName, varValue, options) {
+        options.data.root[varName] = varValue;
+    });
     registerHandlebarHelpers();
     // Preload template partials.
     preloadHandlebarsTemplates();

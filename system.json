@@ -2,7 +2,7 @@
     "name": "lexoccultum",
     "title": "Lex Occultum",
     "description": "LexOccultum Game system available in English and French",
-    "version": "1.2.1",
+    "version": "1.3",
     "minimumCoreVersion": "0.8.6",
     "compatibleCoreVersion": "0.8.7",
     "templateVersion": 2,
@@ -32,7 +32,7 @@
     "primaryTokenAttribute": "health",
     "secondaryTokenAttribute": "sanity",
     "url": "https://github.com/Dekminoz/foundry_lexoccultum",
-    "manifest": "https://github.com/Dekminoz/foundry_lexoccultum/releases/latest/download/system.json",
-    "download": "https://github.com/Dekminoz/foundry_lexoccultum/releases/latest/download/master.zip",
+    "manifest": "https://assets.forge-vtt.com/5fadb85ec64bc6fe91faf39c/Systems/lex/system.json",
+    "download": "https://assets.forge-vtt.com/5fadb85ec64bc6fe91faf39c/Systems/lex.zip",
     "license": "LICENSE.txt"
 }

@@ -1,4 +1,4 @@
-[![foundry-shield-079]][foundry-url]
+[![foundry-shield-087]][foundry-url]
 
 # Lex Occultum Game System
 
