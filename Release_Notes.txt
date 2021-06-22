@@ -40,6 +40,9 @@ Version 1.2
 
     Add foundry 0.8.6+ support
 
-Version 1.2
+Version 1.2.1
 
     FIX SKills display
+
+Version 1.2.2
+    FIX issue with health , skills displayed , combat point and mouvement
