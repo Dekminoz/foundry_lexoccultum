@@ -28,7 +28,7 @@
                     "label": "Player"
                 },
                 "social_class": {
-                    "value": "",
+                    "value": 0,
                     "label": "Social class"
                 },
                 "nationality": {

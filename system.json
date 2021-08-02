@@ -2,7 +2,7 @@
     "name": "lexoccultum",
     "title": "Lex Occultum",
     "description": "LexOccultum Game system available in English and French",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "minimumCoreVersion": "0.8.6",
     "compatibleCoreVersion": "0.8.7",
     "templateVersion": 2,
@@ -27,7 +27,7 @@
             "path": "lang/en.json"
         }
     ],
-    "gridDistance": 5,
+    "gridDistance": 1,
     "gridUnits": "m",
     "primaryTokenAttribute": "health",
     "secondaryTokenAttribute": "sanity",
